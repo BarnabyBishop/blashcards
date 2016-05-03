@@ -1,0 +1,62 @@
+[
+  {
+    "soundFile":"122.mp3",
+    "korean": "그 사람은 의사야 / 그 사람은 의사예요",
+    "english":"That person is a doctor"
+  },
+  {
+      "soundFile":"Lesson-1-2.mp3",
+      "korean": "나는 여자야 / 저는 여자예요",
+      "english":"I am a woman"
+  },
+  {
+      "soundFile":"Lesson-1-3.mp3",
+      "korean": "나는 선생님이야 / 저는 선생님이에요",
+      "english":"I am a teacher"
+  },
+  {
+      "soundFile":"Lesson-1-4.mp3",
+      "korean": "나는 사람이야 / 저는 사람이에요",
+      "english":"I am a person"
+  },
+  {
+      "soundFile":"Lesson-1-5.mp3",
+      "korean": "그 사람은 선생님이야 / 그 사람은 선생님이에요",
+      "english":"That person is a teacher"
+  },
+  {
+      "soundFile":"Lesson-1-s3.mp3",
+      "korean": "이것은 탁자야",
+      "english": "This (thing) is a table"
+  },
+  {
+      "soundFile":"Lesson-1-s4.mp3",
+      "korean": "이것은 탁자예요",
+      "english":"This (thing) is a table"
+  },
+  {
+      "soundFile":"Lesson-1-7.mp3",
+      "korean": "저것은 침대야 / 저것은 침대예요",
+      "english":"That (thing) is a bed"
+  },
+  {
+      "soundFile":"Lesson-1new8.mp3",
+      "korean": "그 사람은 남자야 / 그 사람은 남자예요",
+      "english":"That person is a man"
+  },
+  {
+      "soundFile":"Lesson-1-9.mp3",
+      "korean": "그 사람은 여자야 / 그 사람은 여자예요",
+      "english":"That person is a woman"
+  },
+  {
+      "soundFile":"Lesson-1-10.mp3",
+      "korean": "그것은 차야 / 그것은 차예요",
+      "english":"That (thing) is a car"
+  },
+  {
+      "soundFile":"Lesson-1-1.mp3",
+      "korean": "이것은 나무야 / 이것은 나무예요",
+      "english":"This (thing) is a tree"
+  }
+]

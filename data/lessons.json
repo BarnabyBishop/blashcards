@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Lesson 8",
+    "file": "./data/lesson8.json"
+  },
+  {
+    "name": "Lesson 9",
+    "file": "data/lesson8.json"
+  },
+  {
+    "name": "Lesson 10",
+    "file": "/data/lesson8.json"
+  }
+]

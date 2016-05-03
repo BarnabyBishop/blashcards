@@ -1,0 +1,1493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		00E356F31AD99517003FC87E /* blashcardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* blashcardsTests.m */; };
+		0115B4F61C88176E00FD0CAC /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0115B4F51C88174700FD0CAC /* libRNSound.a */; };
+		0134D8D21C88CF9F00961149 /* 1-I-built-a-hospital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8A51C88CF9F00961149 /* 1-I-built-a-hospital.mp3 */; };
+		0134D8D31C88CF9F00961149 /* 2-I-will-go-on-Tuesday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8A61C88CF9F00961149 /* 2-I-will-go-on-Tuesday.mp3 */; };
+		0134D8D41C88CF9F00961149 /* 3-I-studied-in-the-evening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8A71C88CF9F00961149 /* 3-I-studied-in-the-evening.mp3 */; };
+		0134D8D51C88CF9F00961149 /* 5-I-will-study-in-the-summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8A81C88CF9F00961149 /* 5-I-will-study-in-the-summer.mp3 */; };
+		0134D8D61C88CF9F00961149 /* 9-I-lived-happily.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8A91C88CF9F00961149 /* 9-I-lived-happily.mp3 */; };
+		0134D8D71C88CF9F00961149 /* 22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8AA1C88CF9F00961149 /* 22.mp3 */; };
+		0134D8D81C88CF9F00961149 /* 25-I-dont-have-money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8AB1C88CF9F00961149 /* 25-I-dont-have-money.mp3 */; };
+		0134D8D91C88CF9F00961149 /* 26-I-dont-have-time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8AC1C88CF9F00961149 /* 26-I-dont-have-time.mp3 */; };
+		0134D8DA1C88CF9F00961149 /* 27-My-friend-is-not-in-Korea-now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8AD1C88CF9F00961149 /* 27-My-friend-is-not-in-Korea-now.mp3 */; };
+		0134D8DB1C88CF9F00961149 /* 28-There-was-nobody-there.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8AE1C88CF9F00961149 /* 28-There-was-nobody-there.mp3 */; };
+		0134D8DC1C88CF9F00961149 /* 29-I-dislike-fruit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8AF1C88CF9F00961149 /* 29-I-dislike-fruit.mp3 */; };
+		0134D8DD1C88CF9F00961149 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B01C88CF9F00961149 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 */; };
+		0134D8DE1C88CF9F00961149 /* Lesson-8-7-I-ate-quietly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B11C88CF9F00961149 /* Lesson-8-7-I-ate-quietly.mp3 */; };
+		0134D8DF1C88CF9F00961149 /* Lesson-8-8-I-crossed-the-street-safely.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B21C88CF9F00961149 /* Lesson-8-8-I-crossed-the-street-safely.mp3 */; };
+		0134D8E01C88CF9F00961149 /* Lesson-8-10-I-ran-really-quickly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B31C88CF9F00961149 /* Lesson-8-10-I-ran-really-quickly.mp3 */; };
+		0134D8E11C88CF9F00961149 /* Lesson-8-11-I-ate-fast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B41C88CF9F00961149 /* Lesson-8-11-I-ate-fast.mp3 */; };
+		0134D8E21C88CF9F00961149 /* Lesson-8-12-I-left-immediately.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B51C88CF9F00961149 /* Lesson-8-12-I-left-immediately.mp3 */; };
+		0134D8E31C88CF9F00961149 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B61C88CF9F00961149 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 */; };
+		0134D8E41C88CF9F00961149 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B71C88CF9F00961149 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 */; };
+		0134D8E51C88CF9F00961149 /* Lesson-8-16-I-didnt-study.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B81C88CF9F00961149 /* Lesson-8-16-I-didnt-study.mp3 */; };
+		0134D8E61C88CF9F00961149 /* Lesson-8-18-Im-not-happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8B91C88CF9F00961149 /* Lesson-8-18-Im-not-happy.mp3 */; };
+		0134D8E71C88CF9F00961149 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8BA1C88CF9F00961149 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 */; };
+		0134D8E81C88CF9F00961149 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8BB1C88CF9F00961149 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 */; };
+		0134D8E91C88CF9F00961149 /* Lesson-8-21-I-dont-like-fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8BC1C88CF9F00961149 /* Lesson-8-21-I-dont-like-fish.mp3 */; };
+		0134D8EA1C88CF9F00961149 /* Lesson-8-22-I-dont-like-fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8BD1C88CF9F00961149 /* Lesson-8-22-I-dont-like-fish.mp3 */; };
+		0134D8EB1C88CF9F00961149 /* Lesson-8-s1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8BE1C88CF9F00961149 /* Lesson-8-s1.mp3 */; };
+		0134D8EC1C88CF9F00961149 /* Lesson-8-s2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8BF1C88CF9F00961149 /* Lesson-8-s2.mp3 */; };
+		0134D8ED1C88CF9F00961149 /* Lesson8-1I-built-a-hospital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C01C88CF9F00961149 /* Lesson8-1I-built-a-hospital.mp3 */; };
+		0134D8EE1C88CF9F00961149 /* Lesson8-2I-went-to-thea-hospital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C11C88CF9F00961149 /* Lesson8-2I-went-to-thea-hospital.mp3 */; };
+		0134D8EF1C88CF9F00961149 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C21C88CF9F00961149 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 */; };
+		0134D8F01C88CF9F00961149 /* Lesson8-4I-meet-my-friend-often.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C31C88CF9F00961149 /* Lesson8-4I-meet-my-friend-often.mp3 */; };
+		0134D8F11C88CF9F00961149 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C41C88CF9F00961149 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 */; };
+		0134D8F21C88CF9F00961149 /* Lesson8-6I-went-home-immediately.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C51C88CF9F00961149 /* Lesson8-6I-went-home-immediately.mp3 */; };
+		0134D8F31C88CF9F00961149 /* Lesson8-7I-did-my-homework-quickly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C61C88CF9F00961149 /* Lesson8-7I-did-my-homework-quickly.mp3 */; };
+		0134D8F41C88CF9F00961149 /* Lesson8-8I-ate-a-lot-of-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C71C88CF9F00961149 /* Lesson8-8I-ate-a-lot-of-rice.mp3 */; };
+		0134D8F51C88CF9F00961149 /* Lesson8-9I-ate-a-lot-of-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C81C88CF9F00961149 /* Lesson8-9I-ate-a-lot-of-rice.mp3 */; };
+		0134D8F61C88CF9F00961149 /* Lesson8-10That-girl-isnt-pretty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8C91C88CF9F00961149 /* Lesson8-10That-girl-isnt-pretty.mp3 */; };
+		0134D8F71C88CF9F00961149 /* Lesson8-11That-girl-isnt-pretty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8CA1C88CF9F00961149 /* Lesson8-11That-girl-isnt-pretty.mp3 */; };
+		0134D8F81C88CF9F00961149 /* Lesson8-12I-ate-rice-slowly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8CB1C88CF9F00961149 /* Lesson8-12I-ate-rice-slowly.mp3 */; };
+		0134D8F91C88CF9F00961149 /* Lesson8-13I-am-not-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8CC1C88CF9F00961149 /* Lesson8-13I-am-not-a-teacher.mp3 */; };
+		0134D8FA1C88CF9F00961149 /* Lesson8-14I-am-not-your-friend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8CD1C88CF9F00961149 /* Lesson8-14I-am-not-your-friend.mp3 */; };
+		0134D8FB1C88CF9F00961149 /* Lesson8-15I-am-not-a-University-Student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8CE1C88CF9F00961149 /* Lesson8-15I-am-not-a-University-Student.mp3 */; };
+		0134D8FC1C88CF9F00961149 /* Lesson8-16We-dont-have-a-car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8CF1C88CF9F00961149 /* Lesson8-16We-dont-have-a-car.mp3 */; };
+		0134D8FD1C88CF9F00961149 /* Lesson8-18I-dislike-fruit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8D01C88CF9F00961149 /* Lesson8-18I-dislike-fruit.mp3 */; };
+		0134D8FE1C88CF9F00961149 /* That-teacher-is-good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0134D8D11C88CF9F00961149 /* That-teacher-is-good.mp3 */; };
+		01493BE21C9AD56D004C7399 /* 1-I-built-a-hospital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B751C9AD56D004C7399 /* 1-I-built-a-hospital.mp3 */; };
+		01493BE31C9AD56D004C7399 /* 2-I-will-go-on-Tuesday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B761C9AD56D004C7399 /* 2-I-will-go-on-Tuesday.mp3 */; };
+		01493BE41C9AD56D004C7399 /* 3-I-studied-in-the-evening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B771C9AD56D004C7399 /* 3-I-studied-in-the-evening.mp3 */; };
+		01493BE51C9AD56D004C7399 /* 5-I-will-study-in-the-summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B781C9AD56D004C7399 /* 5-I-will-study-in-the-summer.mp3 */; };
+		01493BE61C9AD56D004C7399 /* 9-I-lived-happily.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B791C9AD56D004C7399 /* 9-I-lived-happily.mp3 */; };
+		01493BE71C9AD56D004C7399 /* 22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B7A1C9AD56D004C7399 /* 22.mp3 */; };
+		01493BE81C9AD56D004C7399 /* 25-I-dont-have-money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B7B1C9AD56D004C7399 /* 25-I-dont-have-money.mp3 */; };
+		01493BE91C9AD56D004C7399 /* 26-I-dont-have-time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B7C1C9AD56D004C7399 /* 26-I-dont-have-time.mp3 */; };
+		01493BEA1C9AD56D004C7399 /* 27-My-friend-is-not-in-Korea-now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B7D1C9AD56D004C7399 /* 27-My-friend-is-not-in-Korea-now.mp3 */; };
+		01493BEB1C9AD56D004C7399 /* 28-There-was-nobody-there.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B7E1C9AD56D004C7399 /* 28-There-was-nobody-there.mp3 */; };
+		01493BEC1C9AD56D004C7399 /* 29-I-dislike-fruit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B7F1C9AD56D004C7399 /* 29-I-dislike-fruit.mp3 */; };
+		01493BED1C9AD56D004C7399 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B801C9AD56D004C7399 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 */; };
+		01493BEE1C9AD56D004C7399 /* Lesson-8-7-I-ate-quietly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B811C9AD56D004C7399 /* Lesson-8-7-I-ate-quietly.mp3 */; };
+		01493BEF1C9AD56D004C7399 /* Lesson-8-8-I-crossed-the-street-safely.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B821C9AD56D004C7399 /* Lesson-8-8-I-crossed-the-street-safely.mp3 */; };
+		01493BF01C9AD56D004C7399 /* Lesson-8-10-I-ran-really-quickly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B831C9AD56D004C7399 /* Lesson-8-10-I-ran-really-quickly.mp3 */; };
+		01493BF11C9AD56D004C7399 /* Lesson-8-11-I-ate-fast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B841C9AD56D004C7399 /* Lesson-8-11-I-ate-fast.mp3 */; };
+		01493BF21C9AD56D004C7399 /* Lesson-8-12-I-left-immediately.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B851C9AD56D004C7399 /* Lesson-8-12-I-left-immediately.mp3 */; };
+		01493BF31C9AD56D004C7399 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B861C9AD56D004C7399 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 */; };
+		01493BF41C9AD56D004C7399 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B871C9AD56D004C7399 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 */; };
+		01493BF51C9AD56D004C7399 /* Lesson-8-16-I-didnt-study.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B881C9AD56D004C7399 /* Lesson-8-16-I-didnt-study.mp3 */; };
+		01493BF61C9AD56D004C7399 /* Lesson-8-18-Im-not-happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B891C9AD56D004C7399 /* Lesson-8-18-Im-not-happy.mp3 */; };
+		01493BF71C9AD56D004C7399 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B8A1C9AD56D004C7399 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 */; };
+		01493BF81C9AD56D004C7399 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B8B1C9AD56D004C7399 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 */; };
+		01493BF91C9AD56D004C7399 /* Lesson-8-21-I-dont-like-fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B8C1C9AD56D004C7399 /* Lesson-8-21-I-dont-like-fish.mp3 */; };
+		01493BFA1C9AD56D004C7399 /* Lesson-8-22-I-dont-like-fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B8D1C9AD56D004C7399 /* Lesson-8-22-I-dont-like-fish.mp3 */; };
+		01493BFB1C9AD56D004C7399 /* Lesson-8-s1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B8E1C9AD56D004C7399 /* Lesson-8-s1.mp3 */; };
+		01493BFC1C9AD56D004C7399 /* Lesson-8-s2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B8F1C9AD56D004C7399 /* Lesson-8-s2.mp3 */; };
+		01493BFD1C9AD56D004C7399 /* Lesson-9-3-I-am-a-good-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B901C9AD56D004C7399 /* Lesson-9-3-I-am-a-good-student.mp3 */; };
+		01493BFE1C9AD56D004C7399 /* Lesson-9-4-That-thing-is-an-apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B911C9AD56D004C7399 /* Lesson-9-4-That-thing-is-an-apple.mp3 */; };
+		01493BFF1C9AD56D004C7399 /* Lesson-9-5-That-thing-is-a-picture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B921C9AD56D004C7399 /* Lesson-9-5-That-thing-is-a-picture.mp3 */; };
+		01493C001C9AD56D004C7399 /* Lesson-9-6-This-person-is-my-sister.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B931C9AD56D004C7399 /* Lesson-9-6-This-person-is-my-sister.mp3 */; };
+		01493C011C9AD56D004C7399 /* Lesson-9-7-I-am-a-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B941C9AD56D004C7399 /* Lesson-9-7-I-am-a-doctor.mp3 */; };
+		01493C021C9AD56D004C7399 /* Lesson-9-8-That-person-is-my-brother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B951C9AD56D004C7399 /* Lesson-9-8-That-person-is-my-brother.mp3 */; };
+		01493C031C9AD56D004C7399 /* Lesson-9-9-I-was-a-bad-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B961C9AD56D004C7399 /* Lesson-9-9-I-was-a-bad-teacher.mp3 */; };
+		01493C041C9AD56D004C7399 /* Lesson-9-10-I-was-a-bad-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B971C9AD56D004C7399 /* Lesson-9-10-I-was-a-bad-doctor.mp3 */; };
+		01493C051C9AD56D004C7399 /* Lesson-9-11-That-was-a-big-secret.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B981C9AD56D004C7399 /* Lesson-9-11-That-was-a-big-secret.mp3 */; };
+		01493C061C9AD56D004C7399 /* Lesson-9-12-I-was-a-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B991C9AD56D004C7399 /* Lesson-9-12-I-was-a-doctor.mp3 */; };
+		01493C071C9AD56D004C7399 /* Lesson-9-15-I-was-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B9A1C9AD56D004C7399 /* Lesson-9-15-I-was-a-teacher.mp3 */; };
+		01493C081C9AD56D004C7399 /* Lesson-9-16-I-was-a-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B9B1C9AD56D004C7399 /* Lesson-9-16-I-was-a-doctor.mp3 */; };
+		01493C091C9AD56D004C7399 /* Lesson-9-20-I-will-eat-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B9C1C9AD56D004C7399 /* Lesson-9-20-I-will-eat-rice.mp3 */; };
+		01493C0A1C9AD56D004C7399 /* Lesson-9-21-I-will-eat-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B9D1C9AD56D004C7399 /* Lesson-9-21-I-will-eat-rice.mp3 */; };
+		01493C0B1C9AD56D004C7399 /* Lesson-9-22-I-will-meet-my-friend-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B9E1C9AD56D004C7399 /* Lesson-9-22-I-will-meet-my-friend-tomorrow.mp3 */; };
+		01493C0C1C9AD56D004C7399 /* Lesson-9-23-I-will-meet-my-friend-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493B9F1C9AD56D004C7399 /* Lesson-9-23-I-will-meet-my-friend-tomorrow.mp3 */; };
+		01493C0D1C9AD56D004C7399 /* Lesson-9-24-I-will-go-to-school-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA01C9AD56D004C7399 /* Lesson-9-24-I-will-go-to-school-tomorrow.mp3 */; };
+		01493C0E1C9AD56D004C7399 /* Lesson-9-25-I-will-study-English.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA11C9AD56D004C7399 /* Lesson-9-25-I-will-study-English.mp3 */; };
+		01493C0F1C9AD56D004C7399 /* Lesson-9-26-I-will-be-a-teacher-soon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA21C9AD56D004C7399 /* Lesson-9-26-I-will-be-a-teacher-soon.mp3 */; };
+		01493C101C9AD56D004C7399 /* Lesson-9-s5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA31C9AD56D004C7399 /* Lesson-9-s5.mp3 */; };
+		01493C111C9AD56D004C7399 /* Lesson-9-s6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA41C9AD56D004C7399 /* Lesson-9-s6.mp3 */; };
+		01493C121C9AD56D004C7399 /* Lesson-9-s7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA51C9AD56D004C7399 /* Lesson-9-s7.mp3 */; };
+		01493C131C9AD56D004C7399 /* Lesson-9-s8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA61C9AD56D004C7399 /* Lesson-9-s8.mp3 */; };
+		01493C141C9AD56D004C7399 /* Lesson-9-s9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA71C9AD56D004C7399 /* Lesson-9-s9.mp3 */; };
+		01493C151C9AD56D004C7399 /* Lesson-9-s10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA81C9AD56D004C7399 /* Lesson-9-s10.mp3 */; };
+		01493C161C9AD56D004C7399 /* Lesson8-1I-built-a-hospital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BA91C9AD56D004C7399 /* Lesson8-1I-built-a-hospital.mp3 */; };
+		01493C171C9AD56D004C7399 /* Lesson8-2I-went-to-thea-hospital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BAA1C9AD56D004C7399 /* Lesson8-2I-went-to-thea-hospital.mp3 */; };
+		01493C181C9AD56D004C7399 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BAB1C9AD56D004C7399 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 */; };
+		01493C191C9AD56D004C7399 /* Lesson8-4I-meet-my-friend-often.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BAC1C9AD56D004C7399 /* Lesson8-4I-meet-my-friend-often.mp3 */; };
+		01493C1A1C9AD56D004C7399 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BAD1C9AD56D004C7399 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 */; };
+		01493C1B1C9AD56D004C7399 /* Lesson8-6I-went-home-immediately.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BAE1C9AD56D004C7399 /* Lesson8-6I-went-home-immediately.mp3 */; };
+		01493C1C1C9AD56D004C7399 /* Lesson8-7I-did-my-homework-quickly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BAF1C9AD56D004C7399 /* Lesson8-7I-did-my-homework-quickly.mp3 */; };
+		01493C1D1C9AD56D004C7399 /* Lesson8-8I-ate-a-lot-of-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB01C9AD56D004C7399 /* Lesson8-8I-ate-a-lot-of-rice.mp3 */; };
+		01493C1E1C9AD56D004C7399 /* Lesson8-9I-ate-a-lot-of-rice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB11C9AD56D004C7399 /* Lesson8-9I-ate-a-lot-of-rice.mp3 */; };
+		01493C1F1C9AD56D004C7399 /* Lesson8-10That-girl-isnt-pretty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB21C9AD56D004C7399 /* Lesson8-10That-girl-isnt-pretty.mp3 */; };
+		01493C201C9AD56D004C7399 /* Lesson8-11That-girl-isnt-pretty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB31C9AD56D004C7399 /* Lesson8-11That-girl-isnt-pretty.mp3 */; };
+		01493C211C9AD56D004C7399 /* Lesson8-12I-ate-rice-slowly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB41C9AD56D004C7399 /* Lesson8-12I-ate-rice-slowly.mp3 */; };
+		01493C221C9AD56D004C7399 /* Lesson8-13I-am-not-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB51C9AD56D004C7399 /* Lesson8-13I-am-not-a-teacher.mp3 */; };
+		01493C231C9AD56D004C7399 /* Lesson8-14I-am-not-your-friend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB61C9AD56D004C7399 /* Lesson8-14I-am-not-your-friend.mp3 */; };
+		01493C241C9AD56D004C7399 /* Lesson8-15I-am-not-a-University-Student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB71C9AD56D004C7399 /* Lesson8-15I-am-not-a-University-Student.mp3 */; };
+		01493C251C9AD56D004C7399 /* Lesson8-16We-dont-have-a-car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB81C9AD56D004C7399 /* Lesson8-16We-dont-have-a-car.mp3 */; };
+		01493C261C9AD56D004C7399 /* Lesson8-18I-dislike-fruit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BB91C9AD56D004C7399 /* Lesson8-18I-dislike-fruit.mp3 */; };
+		01493C271C9AD56D004C7399 /* Lesson9-1that-thing-is-a-book.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BBA1C9AD56D004C7399 /* Lesson9-1that-thing-is-a-book.mp3 */; };
+		01493C281C9AD56D004C7399 /* Lesson9-2I-am-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BBB1C9AD56D004C7399 /* Lesson9-2I-am-a-teacher.mp3 */; };
+		01493C291C9AD56D004C7399 /* Lesson9-3This-is-a-passport.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BBC1C9AD56D004C7399 /* Lesson9-3This-is-a-passport.mp3 */; };
+		01493C2A1C9AD56D004C7399 /* Lesson9-4I-am-a-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BBD1C9AD56D004C7399 /* Lesson9-4I-am-a-doctor.mp3 */; };
+		01493C2B1C9AD56D004C7399 /* Lesson9-5Baseball-is-a-good-sport.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BBE1C9AD56D004C7399 /* Lesson9-5Baseball-is-a-good-sport.mp3 */; };
+		01493C2C1C9AD56D004C7399 /* Lesson9-6I-am-not-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BBF1C9AD56D004C7399 /* Lesson9-6I-am-not-a-student.mp3 */; };
+		01493C2D1C9AD56D004C7399 /* Lesson9-7That-thing-is-not-a-book.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC01C9AD56D004C7399 /* Lesson9-7That-thing-is-not-a-book.mp3 */; };
+		01493C2E1C9AD56D004C7399 /* Lesson9-8I-am-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC11C9AD56D004C7399 /* Lesson9-8I-am-a-teacher.mp3 */; };
+		01493C2F1C9AD56D004C7399 /* Lesson9-9I-am-a-good-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC21C9AD56D004C7399 /* Lesson9-9I-am-a-good-student.mp3 */; };
+		01493C301C9AD56D004C7399 /* Lesson9-10I-am-a-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC31C9AD56D004C7399 /* Lesson9-10I-am-a-doctor.mp3 */; };
+		01493C311C9AD56D004C7399 /* Lesson9-11That-thing-is-an-apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC41C9AD56D004C7399 /* Lesson9-11That-thing-is-an-apple.mp3 */; };
+		01493C321C9AD56D004C7399 /* Lesson9-12I-am-not-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC51C9AD56D004C7399 /* Lesson9-12I-am-not-a-student.mp3 */; };
+		01493C331C9AD56D004C7399 /* Lesson9-13I-am-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC61C9AD56D004C7399 /* Lesson9-13I-am-a-teacher.mp3 */; };
+		01493C341C9AD56D004C7399 /* Lesson9-14I-am-a-good-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC71C9AD56D004C7399 /* Lesson9-14I-am-a-good-student.mp3 */; };
+		01493C351C9AD56D004C7399 /* Lesson9-15This-meet-is-pork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC81C9AD56D004C7399 /* Lesson9-15This-meet-is-pork.mp3 */; };
+		01493C361C9AD56D004C7399 /* Lesson9-16I-am-not-a-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BC91C9AD56D004C7399 /* Lesson9-16I-am-not-a-doctor.mp3 */; };
+		01493C371C9AD56D004C7399 /* Lesson9-17I-am-not-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BCA1C9AD56D004C7399 /* Lesson9-17I-am-not-a-student.mp3 */; };
+		01493C381C9AD56D004C7399 /* Lesson9-18That-is-not-my-job.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BCB1C9AD56D004C7399 /* Lesson9-18That-is-not-my-job.mp3 */; };
+		01493C391C9AD56D004C7399 /* Lesson9-19That-is-not-my-passport.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BCC1C9AD56D004C7399 /* Lesson9-19That-is-not-my-passport.mp3 */; };
+		01493C3A1C9AD56D004C7399 /* Lesson9-20That-building-is-not-a-theater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BCD1C9AD56D004C7399 /* Lesson9-20That-building-is-not-a-theater.mp3 */; };
+		01493C3B1C9AD56D004C7399 /* Lesson9-21I-was-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BCE1C9AD56D004C7399 /* Lesson9-21I-was-a-student.mp3 */; };
+		01493C3C1C9AD56D004C7399 /* Lesson9-22I-was-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BCF1C9AD56D004C7399 /* Lesson9-22I-was-a-teacher.mp3 */; };
+		01493C3D1C9AD56D004C7399 /* Lesson9-23I-was-a-bad-baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD01C9AD56D004C7399 /* Lesson9-23I-was-a-bad-baby.mp3 */; };
+		01493C3E1C9AD56D004C7399 /* Lesson9-24I-was-a-bad-baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD11C9AD56D004C7399 /* Lesson9-24I-was-a-bad-baby.mp3 */; };
+		01493C3F1C9AD56D004C7399 /* Lesson9-25I-was-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD21C9AD56D004C7399 /* Lesson9-25I-was-a-teacher.mp3 */; };
+		01493C401C9AD56D004C7399 /* Lesson9-26I-was-a-teacher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD31C9AD56D004C7399 /* Lesson9-26I-was-a-teacher.mp3 */; };
+		01493C411C9AD56D004C7399 /* Lesson9-27I-was-a-doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD41C9AD56D004C7399 /* Lesson9-27I-was-a-doctor.mp3 */; };
+		01493C421C9AD56D004C7399 /* Lesson9-28I-was-not-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD51C9AD56D004C7399 /* Lesson9-28I-was-not-a-student.mp3 */; };
+		01493C431C9AD56D004C7399 /* Lesson9-29I-was-not-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD61C9AD56D004C7399 /* Lesson9-29I-was-not-a-student.mp3 */; };
+		01493C441C9AD56D004C7399 /* Lesson9-30I-was-not-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD71C9AD56D004C7399 /* Lesson9-30I-was-not-a-student.mp3 */; };
+		01493C451C9AD56D004C7399 /* Lesson9-31I-was-not-a-student.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD81C9AD56D004C7399 /* Lesson9-31I-was-not-a-student.mp3 */; };
+		01493C461C9AD56D004C7399 /* Lesson9-32I-will-open-the-door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BD91C9AD56D004C7399 /* Lesson9-32I-will-open-the-door.mp3 */; };
+		01493C471C9AD56D004C7399 /* Lesson9-33I-will-be-a-teacher-soon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BDA1C9AD56D004C7399 /* Lesson9-33I-will-be-a-teacher-soon.mp3 */; };
+		01493C481C9AD56D004C7399 /* Lesson9-34I-will-become-a-doctor-in-the-future.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BDB1C9AD56D004C7399 /* Lesson9-34I-will-become-a-doctor-in-the-future.mp3 */; };
+		01493C491C9AD56D004C7399 /* Lesson9-35I-will-be-a-doctor-in-the-future.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BDC1C9AD56D004C7399 /* Lesson9-35I-will-be-a-doctor-in-the-future.mp3 */; };
+		01493C4A1C9AD56D004C7399 /* Lesson9-36Korea-will-become-a-good-country-soon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BDD1C9AD56D004C7399 /* Lesson9-36Korea-will-become-a-good-country-soon.mp3 */; };
+		01493C4B1C9AD56D004C7399 /* Lesson9-37Korea-will-be-a-good-country-soon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BDE1C9AD56D004C7399 /* Lesson9-37Korea-will-be-a-good-country-soon.mp3 */; };
+		01493C4C1C9AD56D004C7399 /* Lesson9-38This-place-will-become-a-park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BDF1C9AD56D004C7399 /* Lesson9-38This-place-will-become-a-park.mp3 */; };
+		01493C4D1C9AD56D004C7399 /* Lesson9-39This-place-will-be-a-park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BE01C9AD56D004C7399 /* Lesson9-39This-place-will-be-a-park.mp3 */; };
+		01493C4E1C9AD56D004C7399 /* That-teacher-is-good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01493BE11C9AD56D004C7399 /* That-teacher-is-good.mp3 */; };
+		01493C501C9AD66F004C7399 /* lesson9.json in Resources */ = {isa = PBXBuildFile; fileRef = 01493C4F1C9AD66F004C7399 /* lesson9.json */; };
+		01D32D911C8BBFC8008467C4 /* lesson8.json in Resources */ = {isa = PBXBuildFile; fileRef = 01D32D8F1C8BBFC8008467C4 /* lesson8.json */; };
+		01DD18AC1CAF6E2400C90A9D /* Lesson-1-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A01CAF6E2400C90A9D /* Lesson-1-1.mp3 */; };
+		01DD18AD1CAF6E2400C90A9D /* Lesson-1-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A11CAF6E2400C90A9D /* Lesson-1-10.mp3 */; };
+		01DD18AE1CAF6E2400C90A9D /* Lesson-1-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A21CAF6E2400C90A9D /* Lesson-1-9.mp3 */; };
+		01DD18AF1CAF6E2400C90A9D /* Lesson-1new8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A31CAF6E2400C90A9D /* Lesson-1new8.mp3 */; };
+		01DD18B01CAF6E2400C90A9D /* Lesson-1-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A41CAF6E2400C90A9D /* Lesson-1-7.mp3 */; };
+		01DD18B11CAF6E2400C90A9D /* Lesson-1-s3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A51CAF6E2400C90A9D /* Lesson-1-s3.mp3 */; };
+		01DD18B21CAF6E2400C90A9D /* Lesson-1-s4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A61CAF6E2400C90A9D /* Lesson-1-s4.mp3 */; };
+		01DD18B31CAF6E2400C90A9D /* Lesson-1-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A71CAF6E2400C90A9D /* Lesson-1-5.mp3 */; };
+		01DD18B41CAF6E2400C90A9D /* 122.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A81CAF6E2400C90A9D /* 122.mp3 */; };
+		01DD18B51CAF6E2400C90A9D /* Lesson-1-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18A91CAF6E2400C90A9D /* Lesson-1-4.mp3 */; };
+		01DD18B61CAF6E2400C90A9D /* Lesson-1-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18AA1CAF6E2400C90A9D /* Lesson-1-3.mp3 */; };
+		01DD18B71CAF6E2400C90A9D /* Lesson-1-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01DD18AB1CAF6E2400C90A9D /* Lesson-1-2.mp3 */; };
+		01E1CA711C90425700948C10 /* lessons.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E1CA701C90425700948C10 /* lessons.json */; };
+		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTActionSheet;
+		};
+		00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTGeolocation;
+		};
+		00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = blashcards;
+		};
+		0115B4F41C88174700FD0CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0115B4F01C88174700FD0CAC /* RNSound.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19825A1E1BD4A89800EE0337;
+			remoteInfo = RNSound;
+		};
+		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTSettings;
+		};
+		139FDEF31B06529B00C62182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		146834031AC3E56700842450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* blashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* blashcardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blashcardsTests.m; sourceTree = "<group>"; };
+		0115B4F01C88174700FD0CAC /* RNSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
+		0134D8A51C88CF9F00961149 /* 1-I-built-a-hospital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "1-I-built-a-hospital.mp3"; path = "../sounds/1-I-built-a-hospital.mp3"; sourceTree = "<group>"; };
+		0134D8A61C88CF9F00961149 /* 2-I-will-go-on-Tuesday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "2-I-will-go-on-Tuesday.mp3"; path = "../sounds/2-I-will-go-on-Tuesday.mp3"; sourceTree = "<group>"; };
+		0134D8A71C88CF9F00961149 /* 3-I-studied-in-the-evening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "3-I-studied-in-the-evening.mp3"; path = "../sounds/3-I-studied-in-the-evening.mp3"; sourceTree = "<group>"; };
+		0134D8A81C88CF9F00961149 /* 5-I-will-study-in-the-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "5-I-will-study-in-the-summer.mp3"; path = "../sounds/5-I-will-study-in-the-summer.mp3"; sourceTree = "<group>"; };
+		0134D8A91C88CF9F00961149 /* 9-I-lived-happily.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "9-I-lived-happily.mp3"; path = "../sounds/9-I-lived-happily.mp3"; sourceTree = "<group>"; };
+		0134D8AA1C88CF9F00961149 /* 22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 22.mp3; path = ../sounds/22.mp3; sourceTree = "<group>"; };
+		0134D8AB1C88CF9F00961149 /* 25-I-dont-have-money.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "25-I-dont-have-money.mp3"; path = "../sounds/25-I-dont-have-money.mp3"; sourceTree = "<group>"; };
+		0134D8AC1C88CF9F00961149 /* 26-I-dont-have-time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "26-I-dont-have-time.mp3"; path = "../sounds/26-I-dont-have-time.mp3"; sourceTree = "<group>"; };
+		0134D8AD1C88CF9F00961149 /* 27-My-friend-is-not-in-Korea-now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "27-My-friend-is-not-in-Korea-now.mp3"; path = "../sounds/27-My-friend-is-not-in-Korea-now.mp3"; sourceTree = "<group>"; };
+		0134D8AE1C88CF9F00961149 /* 28-There-was-nobody-there.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "28-There-was-nobody-there.mp3"; path = "../sounds/28-There-was-nobody-there.mp3"; sourceTree = "<group>"; };
+		0134D8AF1C88CF9F00961149 /* 29-I-dislike-fruit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "29-I-dislike-fruit.mp3"; path = "../sounds/29-I-dislike-fruit.mp3"; sourceTree = "<group>"; };
+		0134D8B01C88CF9F00961149 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-6-I-will-study-Korean-tomorrow.mp3"; path = "../sounds/Lesson-8-6-I-will-study-Korean-tomorrow.mp3"; sourceTree = "<group>"; };
+		0134D8B11C88CF9F00961149 /* Lesson-8-7-I-ate-quietly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-7-I-ate-quietly.mp3"; path = "../sounds/Lesson-8-7-I-ate-quietly.mp3"; sourceTree = "<group>"; };
+		0134D8B21C88CF9F00961149 /* Lesson-8-8-I-crossed-the-street-safely.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-8-I-crossed-the-street-safely.mp3"; path = "../sounds/Lesson-8-8-I-crossed-the-street-safely.mp3"; sourceTree = "<group>"; };
+		0134D8B31C88CF9F00961149 /* Lesson-8-10-I-ran-really-quickly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-10-I-ran-really-quickly.mp3"; path = "../sounds/Lesson-8-10-I-ran-really-quickly.mp3"; sourceTree = "<group>"; };
+		0134D8B41C88CF9F00961149 /* Lesson-8-11-I-ate-fast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-11-I-ate-fast.mp3"; path = "../sounds/Lesson-8-11-I-ate-fast.mp3"; sourceTree = "<group>"; };
+		0134D8B51C88CF9F00961149 /* Lesson-8-12-I-left-immediately.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-12-I-left-immediately.mp3"; path = "../sounds/Lesson-8-12-I-left-immediately.mp3"; sourceTree = "<group>"; };
+		0134D8B61C88CF9F00961149 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3"; path = "../sounds/Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3"; sourceTree = "<group>"; };
+		0134D8B71C88CF9F00961149 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-14-I-eat-too-much-someitmes.mp3"; path = "../sounds/Lesson-8-14-I-eat-too-much-someitmes.mp3"; sourceTree = "<group>"; };
+		0134D8B81C88CF9F00961149 /* Lesson-8-16-I-didnt-study.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-16-I-didnt-study.mp3"; path = "../sounds/Lesson-8-16-I-didnt-study.mp3"; sourceTree = "<group>"; };
+		0134D8B91C88CF9F00961149 /* Lesson-8-18-Im-not-happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-18-Im-not-happy.mp3"; path = "../sounds/Lesson-8-18-Im-not-happy.mp3"; sourceTree = "<group>"; };
+		0134D8BA1C88CF9F00961149 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-19-Im-not-going-to-school-tomorrow.mp3"; path = "../sounds/Lesson-8-19-Im-not-going-to-school-tomorrow.mp3"; sourceTree = "<group>"; };
+		0134D8BB1C88CF9F00961149 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-20-Im-not-going-to-school-tomorrow.mp3"; path = "../sounds/Lesson-8-20-Im-not-going-to-school-tomorrow.mp3"; sourceTree = "<group>"; };
+		0134D8BC1C88CF9F00961149 /* Lesson-8-21-I-dont-like-fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-21-I-dont-like-fish.mp3"; path = "../sounds/Lesson-8-21-I-dont-like-fish.mp3"; sourceTree = "<group>"; };
+		0134D8BD1C88CF9F00961149 /* Lesson-8-22-I-dont-like-fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-22-I-dont-like-fish.mp3"; path = "../sounds/Lesson-8-22-I-dont-like-fish.mp3"; sourceTree = "<group>"; };
+		0134D8BE1C88CF9F00961149 /* Lesson-8-s1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-s1.mp3"; path = "../sounds/Lesson-8-s1.mp3"; sourceTree = "<group>"; };
+		0134D8BF1C88CF9F00961149 /* Lesson-8-s2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-s2.mp3"; path = "../sounds/Lesson-8-s2.mp3"; sourceTree = "<group>"; };
+		0134D8C01C88CF9F00961149 /* Lesson8-1I-built-a-hospital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-1I-built-a-hospital.mp3"; path = "../sounds/Lesson8-1I-built-a-hospital.mp3"; sourceTree = "<group>"; };
+		0134D8C11C88CF9F00961149 /* Lesson8-2I-went-to-thea-hospital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-2I-went-to-thea-hospital.mp3"; path = "../sounds/Lesson8-2I-went-to-thea-hospital.mp3"; sourceTree = "<group>"; };
+		0134D8C21C88CF9F00961149 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3"; path = "../sounds/Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3"; sourceTree = "<group>"; };
+		0134D8C31C88CF9F00961149 /* Lesson8-4I-meet-my-friend-often.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-4I-meet-my-friend-often.mp3"; path = "../sounds/Lesson8-4I-meet-my-friend-often.mp3"; sourceTree = "<group>"; };
+		0134D8C41C88CF9F00961149 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-5I-ate-a-lot-of-food-rice.mp3"; path = "../sounds/Lesson8-5I-ate-a-lot-of-food-rice.mp3"; sourceTree = "<group>"; };
+		0134D8C51C88CF9F00961149 /* Lesson8-6I-went-home-immediately.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-6I-went-home-immediately.mp3"; path = "../sounds/Lesson8-6I-went-home-immediately.mp3"; sourceTree = "<group>"; };
+		0134D8C61C88CF9F00961149 /* Lesson8-7I-did-my-homework-quickly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-7I-did-my-homework-quickly.mp3"; path = "../sounds/Lesson8-7I-did-my-homework-quickly.mp3"; sourceTree = "<group>"; };
+		0134D8C71C88CF9F00961149 /* Lesson8-8I-ate-a-lot-of-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-8I-ate-a-lot-of-rice.mp3"; path = "../sounds/Lesson8-8I-ate-a-lot-of-rice.mp3"; sourceTree = "<group>"; };
+		0134D8C81C88CF9F00961149 /* Lesson8-9I-ate-a-lot-of-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-9I-ate-a-lot-of-rice.mp3"; path = "../sounds/Lesson8-9I-ate-a-lot-of-rice.mp3"; sourceTree = "<group>"; };
+		0134D8C91C88CF9F00961149 /* Lesson8-10That-girl-isnt-pretty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-10That-girl-isnt-pretty.mp3"; path = "../sounds/Lesson8-10That-girl-isnt-pretty.mp3"; sourceTree = "<group>"; };
+		0134D8CA1C88CF9F00961149 /* Lesson8-11That-girl-isnt-pretty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-11That-girl-isnt-pretty.mp3"; path = "../sounds/Lesson8-11That-girl-isnt-pretty.mp3"; sourceTree = "<group>"; };
+		0134D8CB1C88CF9F00961149 /* Lesson8-12I-ate-rice-slowly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-12I-ate-rice-slowly.mp3"; path = "../sounds/Lesson8-12I-ate-rice-slowly.mp3"; sourceTree = "<group>"; };
+		0134D8CC1C88CF9F00961149 /* Lesson8-13I-am-not-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-13I-am-not-a-teacher.mp3"; path = "../sounds/Lesson8-13I-am-not-a-teacher.mp3"; sourceTree = "<group>"; };
+		0134D8CD1C88CF9F00961149 /* Lesson8-14I-am-not-your-friend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-14I-am-not-your-friend.mp3"; path = "../sounds/Lesson8-14I-am-not-your-friend.mp3"; sourceTree = "<group>"; };
+		0134D8CE1C88CF9F00961149 /* Lesson8-15I-am-not-a-University-Student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-15I-am-not-a-University-Student.mp3"; path = "../sounds/Lesson8-15I-am-not-a-University-Student.mp3"; sourceTree = "<group>"; };
+		0134D8CF1C88CF9F00961149 /* Lesson8-16We-dont-have-a-car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-16We-dont-have-a-car.mp3"; path = "../sounds/Lesson8-16We-dont-have-a-car.mp3"; sourceTree = "<group>"; };
+		0134D8D01C88CF9F00961149 /* Lesson8-18I-dislike-fruit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-18I-dislike-fruit.mp3"; path = "../sounds/Lesson8-18I-dislike-fruit.mp3"; sourceTree = "<group>"; };
+		0134D8D11C88CF9F00961149 /* That-teacher-is-good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "That-teacher-is-good.mp3"; path = "../sounds/That-teacher-is-good.mp3"; sourceTree = "<group>"; };
+		01493B751C9AD56D004C7399 /* 1-I-built-a-hospital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "1-I-built-a-hospital.mp3"; path = "../sounds/1-I-built-a-hospital.mp3"; sourceTree = "<group>"; };
+		01493B761C9AD56D004C7399 /* 2-I-will-go-on-Tuesday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "2-I-will-go-on-Tuesday.mp3"; path = "../sounds/2-I-will-go-on-Tuesday.mp3"; sourceTree = "<group>"; };
+		01493B771C9AD56D004C7399 /* 3-I-studied-in-the-evening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "3-I-studied-in-the-evening.mp3"; path = "../sounds/3-I-studied-in-the-evening.mp3"; sourceTree = "<group>"; };
+		01493B781C9AD56D004C7399 /* 5-I-will-study-in-the-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "5-I-will-study-in-the-summer.mp3"; path = "../sounds/5-I-will-study-in-the-summer.mp3"; sourceTree = "<group>"; };
+		01493B791C9AD56D004C7399 /* 9-I-lived-happily.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "9-I-lived-happily.mp3"; path = "../sounds/9-I-lived-happily.mp3"; sourceTree = "<group>"; };
+		01493B7A1C9AD56D004C7399 /* 22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 22.mp3; path = ../sounds/22.mp3; sourceTree = "<group>"; };
+		01493B7B1C9AD56D004C7399 /* 25-I-dont-have-money.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "25-I-dont-have-money.mp3"; path = "../sounds/25-I-dont-have-money.mp3"; sourceTree = "<group>"; };
+		01493B7C1C9AD56D004C7399 /* 26-I-dont-have-time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "26-I-dont-have-time.mp3"; path = "../sounds/26-I-dont-have-time.mp3"; sourceTree = "<group>"; };
+		01493B7D1C9AD56D004C7399 /* 27-My-friend-is-not-in-Korea-now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "27-My-friend-is-not-in-Korea-now.mp3"; path = "../sounds/27-My-friend-is-not-in-Korea-now.mp3"; sourceTree = "<group>"; };
+		01493B7E1C9AD56D004C7399 /* 28-There-was-nobody-there.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "28-There-was-nobody-there.mp3"; path = "../sounds/28-There-was-nobody-there.mp3"; sourceTree = "<group>"; };
+		01493B7F1C9AD56D004C7399 /* 29-I-dislike-fruit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "29-I-dislike-fruit.mp3"; path = "../sounds/29-I-dislike-fruit.mp3"; sourceTree = "<group>"; };
+		01493B801C9AD56D004C7399 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-6-I-will-study-Korean-tomorrow.mp3"; path = "../sounds/Lesson-8-6-I-will-study-Korean-tomorrow.mp3"; sourceTree = "<group>"; };
+		01493B811C9AD56D004C7399 /* Lesson-8-7-I-ate-quietly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-7-I-ate-quietly.mp3"; path = "../sounds/Lesson-8-7-I-ate-quietly.mp3"; sourceTree = "<group>"; };
+		01493B821C9AD56D004C7399 /* Lesson-8-8-I-crossed-the-street-safely.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-8-I-crossed-the-street-safely.mp3"; path = "../sounds/Lesson-8-8-I-crossed-the-street-safely.mp3"; sourceTree = "<group>"; };
+		01493B831C9AD56D004C7399 /* Lesson-8-10-I-ran-really-quickly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-10-I-ran-really-quickly.mp3"; path = "../sounds/Lesson-8-10-I-ran-really-quickly.mp3"; sourceTree = "<group>"; };
+		01493B841C9AD56D004C7399 /* Lesson-8-11-I-ate-fast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-11-I-ate-fast.mp3"; path = "../sounds/Lesson-8-11-I-ate-fast.mp3"; sourceTree = "<group>"; };
+		01493B851C9AD56D004C7399 /* Lesson-8-12-I-left-immediately.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-12-I-left-immediately.mp3"; path = "../sounds/Lesson-8-12-I-left-immediately.mp3"; sourceTree = "<group>"; };
+		01493B861C9AD56D004C7399 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3"; path = "../sounds/Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3"; sourceTree = "<group>"; };
+		01493B871C9AD56D004C7399 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-14-I-eat-too-much-someitmes.mp3"; path = "../sounds/Lesson-8-14-I-eat-too-much-someitmes.mp3"; sourceTree = "<group>"; };
+		01493B881C9AD56D004C7399 /* Lesson-8-16-I-didnt-study.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-16-I-didnt-study.mp3"; path = "../sounds/Lesson-8-16-I-didnt-study.mp3"; sourceTree = "<group>"; };
+		01493B891C9AD56D004C7399 /* Lesson-8-18-Im-not-happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-18-Im-not-happy.mp3"; path = "../sounds/Lesson-8-18-Im-not-happy.mp3"; sourceTree = "<group>"; };
+		01493B8A1C9AD56D004C7399 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-19-Im-not-going-to-school-tomorrow.mp3"; path = "../sounds/Lesson-8-19-Im-not-going-to-school-tomorrow.mp3"; sourceTree = "<group>"; };
+		01493B8B1C9AD56D004C7399 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-20-Im-not-going-to-school-tomorrow.mp3"; path = "../sounds/Lesson-8-20-Im-not-going-to-school-tomorrow.mp3"; sourceTree = "<group>"; };
+		01493B8C1C9AD56D004C7399 /* Lesson-8-21-I-dont-like-fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-21-I-dont-like-fish.mp3"; path = "../sounds/Lesson-8-21-I-dont-like-fish.mp3"; sourceTree = "<group>"; };
+		01493B8D1C9AD56D004C7399 /* Lesson-8-22-I-dont-like-fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-22-I-dont-like-fish.mp3"; path = "../sounds/Lesson-8-22-I-dont-like-fish.mp3"; sourceTree = "<group>"; };
+		01493B8E1C9AD56D004C7399 /* Lesson-8-s1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-s1.mp3"; path = "../sounds/Lesson-8-s1.mp3"; sourceTree = "<group>"; };
+		01493B8F1C9AD56D004C7399 /* Lesson-8-s2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-8-s2.mp3"; path = "../sounds/Lesson-8-s2.mp3"; sourceTree = "<group>"; };
+		01493B901C9AD56D004C7399 /* Lesson-9-3-I-am-a-good-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-3-I-am-a-good-student.mp3"; path = "../sounds/Lesson-9-3-I-am-a-good-student.mp3"; sourceTree = "<group>"; };
+		01493B911C9AD56D004C7399 /* Lesson-9-4-That-thing-is-an-apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-4-That-thing-is-an-apple.mp3"; path = "../sounds/Lesson-9-4-That-thing-is-an-apple.mp3"; sourceTree = "<group>"; };
+		01493B921C9AD56D004C7399 /* Lesson-9-5-That-thing-is-a-picture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-5-That-thing-is-a-picture.mp3"; path = "../sounds/Lesson-9-5-That-thing-is-a-picture.mp3"; sourceTree = "<group>"; };
+		01493B931C9AD56D004C7399 /* Lesson-9-6-This-person-is-my-sister.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-6-This-person-is-my-sister.mp3"; path = "../sounds/Lesson-9-6-This-person-is-my-sister.mp3"; sourceTree = "<group>"; };
+		01493B941C9AD56D004C7399 /* Lesson-9-7-I-am-a-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-7-I-am-a-doctor.mp3"; path = "../sounds/Lesson-9-7-I-am-a-doctor.mp3"; sourceTree = "<group>"; };
+		01493B951C9AD56D004C7399 /* Lesson-9-8-That-person-is-my-brother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-8-That-person-is-my-brother.mp3"; path = "../sounds/Lesson-9-8-That-person-is-my-brother.mp3"; sourceTree = "<group>"; };
+		01493B961C9AD56D004C7399 /* Lesson-9-9-I-was-a-bad-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-9-I-was-a-bad-teacher.mp3"; path = "../sounds/Lesson-9-9-I-was-a-bad-teacher.mp3"; sourceTree = "<group>"; };
+		01493B971C9AD56D004C7399 /* Lesson-9-10-I-was-a-bad-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-10-I-was-a-bad-doctor.mp3"; path = "../sounds/Lesson-9-10-I-was-a-bad-doctor.mp3"; sourceTree = "<group>"; };
+		01493B981C9AD56D004C7399 /* Lesson-9-11-That-was-a-big-secret.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-11-That-was-a-big-secret.mp3"; path = "../sounds/Lesson-9-11-That-was-a-big-secret.mp3"; sourceTree = "<group>"; };
+		01493B991C9AD56D004C7399 /* Lesson-9-12-I-was-a-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-12-I-was-a-doctor.mp3"; path = "../sounds/Lesson-9-12-I-was-a-doctor.mp3"; sourceTree = "<group>"; };
+		01493B9A1C9AD56D004C7399 /* Lesson-9-15-I-was-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-15-I-was-a-teacher.mp3"; path = "../sounds/Lesson-9-15-I-was-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493B9B1C9AD56D004C7399 /* Lesson-9-16-I-was-a-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-16-I-was-a-doctor.mp3"; path = "../sounds/Lesson-9-16-I-was-a-doctor.mp3"; sourceTree = "<group>"; };
+		01493B9C1C9AD56D004C7399 /* Lesson-9-20-I-will-eat-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-20-I-will-eat-rice.mp3"; path = "../sounds/Lesson-9-20-I-will-eat-rice.mp3"; sourceTree = "<group>"; };
+		01493B9D1C9AD56D004C7399 /* Lesson-9-21-I-will-eat-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-21-I-will-eat-rice.mp3"; path = "../sounds/Lesson-9-21-I-will-eat-rice.mp3"; sourceTree = "<group>"; };
+		01493B9E1C9AD56D004C7399 /* Lesson-9-22-I-will-meet-my-friend-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-22-I-will-meet-my-friend-tomorrow.mp3"; path = "../sounds/Lesson-9-22-I-will-meet-my-friend-tomorrow.mp3"; sourceTree = "<group>"; };
+		01493B9F1C9AD56D004C7399 /* Lesson-9-23-I-will-meet-my-friend-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-23-I-will-meet-my-friend-tomorrow.mp3"; path = "../sounds/Lesson-9-23-I-will-meet-my-friend-tomorrow.mp3"; sourceTree = "<group>"; };
+		01493BA01C9AD56D004C7399 /* Lesson-9-24-I-will-go-to-school-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-24-I-will-go-to-school-tomorrow.mp3"; path = "../sounds/Lesson-9-24-I-will-go-to-school-tomorrow.mp3"; sourceTree = "<group>"; };
+		01493BA11C9AD56D004C7399 /* Lesson-9-25-I-will-study-English.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-25-I-will-study-English.mp3"; path = "../sounds/Lesson-9-25-I-will-study-English.mp3"; sourceTree = "<group>"; };
+		01493BA21C9AD56D004C7399 /* Lesson-9-26-I-will-be-a-teacher-soon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-26-I-will-be-a-teacher-soon.mp3"; path = "../sounds/Lesson-9-26-I-will-be-a-teacher-soon.mp3"; sourceTree = "<group>"; };
+		01493BA31C9AD56D004C7399 /* Lesson-9-s5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-s5.mp3"; path = "../sounds/Lesson-9-s5.mp3"; sourceTree = "<group>"; };
+		01493BA41C9AD56D004C7399 /* Lesson-9-s6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-s6.mp3"; path = "../sounds/Lesson-9-s6.mp3"; sourceTree = "<group>"; };
+		01493BA51C9AD56D004C7399 /* Lesson-9-s7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-s7.mp3"; path = "../sounds/Lesson-9-s7.mp3"; sourceTree = "<group>"; };
+		01493BA61C9AD56D004C7399 /* Lesson-9-s8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-s8.mp3"; path = "../sounds/Lesson-9-s8.mp3"; sourceTree = "<group>"; };
+		01493BA71C9AD56D004C7399 /* Lesson-9-s9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-s9.mp3"; path = "../sounds/Lesson-9-s9.mp3"; sourceTree = "<group>"; };
+		01493BA81C9AD56D004C7399 /* Lesson-9-s10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-9-s10.mp3"; path = "../sounds/Lesson-9-s10.mp3"; sourceTree = "<group>"; };
+		01493BA91C9AD56D004C7399 /* Lesson8-1I-built-a-hospital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-1I-built-a-hospital.mp3"; path = "../sounds/Lesson8-1I-built-a-hospital.mp3"; sourceTree = "<group>"; };
+		01493BAA1C9AD56D004C7399 /* Lesson8-2I-went-to-thea-hospital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-2I-went-to-thea-hospital.mp3"; path = "../sounds/Lesson8-2I-went-to-thea-hospital.mp3"; sourceTree = "<group>"; };
+		01493BAB1C9AD56D004C7399 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3"; path = "../sounds/Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3"; sourceTree = "<group>"; };
+		01493BAC1C9AD56D004C7399 /* Lesson8-4I-meet-my-friend-often.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-4I-meet-my-friend-often.mp3"; path = "../sounds/Lesson8-4I-meet-my-friend-often.mp3"; sourceTree = "<group>"; };
+		01493BAD1C9AD56D004C7399 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-5I-ate-a-lot-of-food-rice.mp3"; path = "../sounds/Lesson8-5I-ate-a-lot-of-food-rice.mp3"; sourceTree = "<group>"; };
+		01493BAE1C9AD56D004C7399 /* Lesson8-6I-went-home-immediately.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-6I-went-home-immediately.mp3"; path = "../sounds/Lesson8-6I-went-home-immediately.mp3"; sourceTree = "<group>"; };
+		01493BAF1C9AD56D004C7399 /* Lesson8-7I-did-my-homework-quickly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-7I-did-my-homework-quickly.mp3"; path = "../sounds/Lesson8-7I-did-my-homework-quickly.mp3"; sourceTree = "<group>"; };
+		01493BB01C9AD56D004C7399 /* Lesson8-8I-ate-a-lot-of-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-8I-ate-a-lot-of-rice.mp3"; path = "../sounds/Lesson8-8I-ate-a-lot-of-rice.mp3"; sourceTree = "<group>"; };
+		01493BB11C9AD56D004C7399 /* Lesson8-9I-ate-a-lot-of-rice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-9I-ate-a-lot-of-rice.mp3"; path = "../sounds/Lesson8-9I-ate-a-lot-of-rice.mp3"; sourceTree = "<group>"; };
+		01493BB21C9AD56D004C7399 /* Lesson8-10That-girl-isnt-pretty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-10That-girl-isnt-pretty.mp3"; path = "../sounds/Lesson8-10That-girl-isnt-pretty.mp3"; sourceTree = "<group>"; };
+		01493BB31C9AD56D004C7399 /* Lesson8-11That-girl-isnt-pretty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-11That-girl-isnt-pretty.mp3"; path = "../sounds/Lesson8-11That-girl-isnt-pretty.mp3"; sourceTree = "<group>"; };
+		01493BB41C9AD56D004C7399 /* Lesson8-12I-ate-rice-slowly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-12I-ate-rice-slowly.mp3"; path = "../sounds/Lesson8-12I-ate-rice-slowly.mp3"; sourceTree = "<group>"; };
+		01493BB51C9AD56D004C7399 /* Lesson8-13I-am-not-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-13I-am-not-a-teacher.mp3"; path = "../sounds/Lesson8-13I-am-not-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493BB61C9AD56D004C7399 /* Lesson8-14I-am-not-your-friend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-14I-am-not-your-friend.mp3"; path = "../sounds/Lesson8-14I-am-not-your-friend.mp3"; sourceTree = "<group>"; };
+		01493BB71C9AD56D004C7399 /* Lesson8-15I-am-not-a-University-Student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-15I-am-not-a-University-Student.mp3"; path = "../sounds/Lesson8-15I-am-not-a-University-Student.mp3"; sourceTree = "<group>"; };
+		01493BB81C9AD56D004C7399 /* Lesson8-16We-dont-have-a-car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-16We-dont-have-a-car.mp3"; path = "../sounds/Lesson8-16We-dont-have-a-car.mp3"; sourceTree = "<group>"; };
+		01493BB91C9AD56D004C7399 /* Lesson8-18I-dislike-fruit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson8-18I-dislike-fruit.mp3"; path = "../sounds/Lesson8-18I-dislike-fruit.mp3"; sourceTree = "<group>"; };
+		01493BBA1C9AD56D004C7399 /* Lesson9-1that-thing-is-a-book.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-1that-thing-is-a-book.mp3"; path = "../sounds/Lesson9-1that-thing-is-a-book.mp3"; sourceTree = "<group>"; };
+		01493BBB1C9AD56D004C7399 /* Lesson9-2I-am-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-2I-am-a-teacher.mp3"; path = "../sounds/Lesson9-2I-am-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493BBC1C9AD56D004C7399 /* Lesson9-3This-is-a-passport.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-3This-is-a-passport.mp3"; path = "../sounds/Lesson9-3This-is-a-passport.mp3"; sourceTree = "<group>"; };
+		01493BBD1C9AD56D004C7399 /* Lesson9-4I-am-a-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-4I-am-a-doctor.mp3"; path = "../sounds/Lesson9-4I-am-a-doctor.mp3"; sourceTree = "<group>"; };
+		01493BBE1C9AD56D004C7399 /* Lesson9-5Baseball-is-a-good-sport.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-5Baseball-is-a-good-sport.mp3"; path = "../sounds/Lesson9-5Baseball-is-a-good-sport.mp3"; sourceTree = "<group>"; };
+		01493BBF1C9AD56D004C7399 /* Lesson9-6I-am-not-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-6I-am-not-a-student.mp3"; path = "../sounds/Lesson9-6I-am-not-a-student.mp3"; sourceTree = "<group>"; };
+		01493BC01C9AD56D004C7399 /* Lesson9-7That-thing-is-not-a-book.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-7That-thing-is-not-a-book.mp3"; path = "../sounds/Lesson9-7That-thing-is-not-a-book.mp3"; sourceTree = "<group>"; };
+		01493BC11C9AD56D004C7399 /* Lesson9-8I-am-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-8I-am-a-teacher.mp3"; path = "../sounds/Lesson9-8I-am-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493BC21C9AD56D004C7399 /* Lesson9-9I-am-a-good-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-9I-am-a-good-student.mp3"; path = "../sounds/Lesson9-9I-am-a-good-student.mp3"; sourceTree = "<group>"; };
+		01493BC31C9AD56D004C7399 /* Lesson9-10I-am-a-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-10I-am-a-doctor.mp3"; path = "../sounds/Lesson9-10I-am-a-doctor.mp3"; sourceTree = "<group>"; };
+		01493BC41C9AD56D004C7399 /* Lesson9-11That-thing-is-an-apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-11That-thing-is-an-apple.mp3"; path = "../sounds/Lesson9-11That-thing-is-an-apple.mp3"; sourceTree = "<group>"; };
+		01493BC51C9AD56D004C7399 /* Lesson9-12I-am-not-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-12I-am-not-a-student.mp3"; path = "../sounds/Lesson9-12I-am-not-a-student.mp3"; sourceTree = "<group>"; };
+		01493BC61C9AD56D004C7399 /* Lesson9-13I-am-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-13I-am-a-teacher.mp3"; path = "../sounds/Lesson9-13I-am-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493BC71C9AD56D004C7399 /* Lesson9-14I-am-a-good-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-14I-am-a-good-student.mp3"; path = "../sounds/Lesson9-14I-am-a-good-student.mp3"; sourceTree = "<group>"; };
+		01493BC81C9AD56D004C7399 /* Lesson9-15This-meet-is-pork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-15This-meet-is-pork.mp3"; path = "../sounds/Lesson9-15This-meet-is-pork.mp3"; sourceTree = "<group>"; };
+		01493BC91C9AD56D004C7399 /* Lesson9-16I-am-not-a-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-16I-am-not-a-doctor.mp3"; path = "../sounds/Lesson9-16I-am-not-a-doctor.mp3"; sourceTree = "<group>"; };
+		01493BCA1C9AD56D004C7399 /* Lesson9-17I-am-not-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-17I-am-not-a-student.mp3"; path = "../sounds/Lesson9-17I-am-not-a-student.mp3"; sourceTree = "<group>"; };
+		01493BCB1C9AD56D004C7399 /* Lesson9-18That-is-not-my-job.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-18That-is-not-my-job.mp3"; path = "../sounds/Lesson9-18That-is-not-my-job.mp3"; sourceTree = "<group>"; };
+		01493BCC1C9AD56D004C7399 /* Lesson9-19That-is-not-my-passport.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-19That-is-not-my-passport.mp3"; path = "../sounds/Lesson9-19That-is-not-my-passport.mp3"; sourceTree = "<group>"; };
+		01493BCD1C9AD56D004C7399 /* Lesson9-20That-building-is-not-a-theater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-20That-building-is-not-a-theater.mp3"; path = "../sounds/Lesson9-20That-building-is-not-a-theater.mp3"; sourceTree = "<group>"; };
+		01493BCE1C9AD56D004C7399 /* Lesson9-21I-was-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-21I-was-a-student.mp3"; path = "../sounds/Lesson9-21I-was-a-student.mp3"; sourceTree = "<group>"; };
+		01493BCF1C9AD56D004C7399 /* Lesson9-22I-was-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-22I-was-a-teacher.mp3"; path = "../sounds/Lesson9-22I-was-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493BD01C9AD56D004C7399 /* Lesson9-23I-was-a-bad-baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-23I-was-a-bad-baby.mp3"; path = "../sounds/Lesson9-23I-was-a-bad-baby.mp3"; sourceTree = "<group>"; };
+		01493BD11C9AD56D004C7399 /* Lesson9-24I-was-a-bad-baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-24I-was-a-bad-baby.mp3"; path = "../sounds/Lesson9-24I-was-a-bad-baby.mp3"; sourceTree = "<group>"; };
+		01493BD21C9AD56D004C7399 /* Lesson9-25I-was-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-25I-was-a-teacher.mp3"; path = "../sounds/Lesson9-25I-was-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493BD31C9AD56D004C7399 /* Lesson9-26I-was-a-teacher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-26I-was-a-teacher.mp3"; path = "../sounds/Lesson9-26I-was-a-teacher.mp3"; sourceTree = "<group>"; };
+		01493BD41C9AD56D004C7399 /* Lesson9-27I-was-a-doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-27I-was-a-doctor.mp3"; path = "../sounds/Lesson9-27I-was-a-doctor.mp3"; sourceTree = "<group>"; };
+		01493BD51C9AD56D004C7399 /* Lesson9-28I-was-not-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-28I-was-not-a-student.mp3"; path = "../sounds/Lesson9-28I-was-not-a-student.mp3"; sourceTree = "<group>"; };
+		01493BD61C9AD56D004C7399 /* Lesson9-29I-was-not-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-29I-was-not-a-student.mp3"; path = "../sounds/Lesson9-29I-was-not-a-student.mp3"; sourceTree = "<group>"; };
+		01493BD71C9AD56D004C7399 /* Lesson9-30I-was-not-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-30I-was-not-a-student.mp3"; path = "../sounds/Lesson9-30I-was-not-a-student.mp3"; sourceTree = "<group>"; };
+		01493BD81C9AD56D004C7399 /* Lesson9-31I-was-not-a-student.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-31I-was-not-a-student.mp3"; path = "../sounds/Lesson9-31I-was-not-a-student.mp3"; sourceTree = "<group>"; };
+		01493BD91C9AD56D004C7399 /* Lesson9-32I-will-open-the-door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-32I-will-open-the-door.mp3"; path = "../sounds/Lesson9-32I-will-open-the-door.mp3"; sourceTree = "<group>"; };
+		01493BDA1C9AD56D004C7399 /* Lesson9-33I-will-be-a-teacher-soon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-33I-will-be-a-teacher-soon.mp3"; path = "../sounds/Lesson9-33I-will-be-a-teacher-soon.mp3"; sourceTree = "<group>"; };
+		01493BDB1C9AD56D004C7399 /* Lesson9-34I-will-become-a-doctor-in-the-future.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-34I-will-become-a-doctor-in-the-future.mp3"; path = "../sounds/Lesson9-34I-will-become-a-doctor-in-the-future.mp3"; sourceTree = "<group>"; };
+		01493BDC1C9AD56D004C7399 /* Lesson9-35I-will-be-a-doctor-in-the-future.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-35I-will-be-a-doctor-in-the-future.mp3"; path = "../sounds/Lesson9-35I-will-be-a-doctor-in-the-future.mp3"; sourceTree = "<group>"; };
+		01493BDD1C9AD56D004C7399 /* Lesson9-36Korea-will-become-a-good-country-soon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-36Korea-will-become-a-good-country-soon.mp3"; path = "../sounds/Lesson9-36Korea-will-become-a-good-country-soon.mp3"; sourceTree = "<group>"; };
+		01493BDE1C9AD56D004C7399 /* Lesson9-37Korea-will-be-a-good-country-soon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-37Korea-will-be-a-good-country-soon.mp3"; path = "../sounds/Lesson9-37Korea-will-be-a-good-country-soon.mp3"; sourceTree = "<group>"; };
+		01493BDF1C9AD56D004C7399 /* Lesson9-38This-place-will-become-a-park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-38This-place-will-become-a-park.mp3"; path = "../sounds/Lesson9-38This-place-will-become-a-park.mp3"; sourceTree = "<group>"; };
+		01493BE01C9AD56D004C7399 /* Lesson9-39This-place-will-be-a-park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson9-39This-place-will-be-a-park.mp3"; path = "../sounds/Lesson9-39This-place-will-be-a-park.mp3"; sourceTree = "<group>"; };
+		01493BE11C9AD56D004C7399 /* That-teacher-is-good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "That-teacher-is-good.mp3"; path = "../sounds/That-teacher-is-good.mp3"; sourceTree = "<group>"; };
+		01493C4F1C9AD66F004C7399 /* lesson9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lesson9.json; path = ../data/lesson9.json; sourceTree = "<group>"; };
+		01D32D8F1C8BBFC8008467C4 /* lesson8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lesson8.json; path = ../data/lesson8.json; sourceTree = "<group>"; };
+		01DD18A01CAF6E2400C90A9D /* Lesson-1-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-1.mp3"; path = "../sounds/Lesson-1-1.mp3"; sourceTree = "<group>"; };
+		01DD18A11CAF6E2400C90A9D /* Lesson-1-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-10.mp3"; path = "../sounds/Lesson-1-10.mp3"; sourceTree = "<group>"; };
+		01DD18A21CAF6E2400C90A9D /* Lesson-1-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-9.mp3"; path = "../sounds/Lesson-1-9.mp3"; sourceTree = "<group>"; };
+		01DD18A31CAF6E2400C90A9D /* Lesson-1new8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1new8.mp3"; path = "../sounds/Lesson-1new8.mp3"; sourceTree = "<group>"; };
+		01DD18A41CAF6E2400C90A9D /* Lesson-1-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-7.mp3"; path = "../sounds/Lesson-1-7.mp3"; sourceTree = "<group>"; };
+		01DD18A51CAF6E2400C90A9D /* Lesson-1-s3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-s3.mp3"; path = "../sounds/Lesson-1-s3.mp3"; sourceTree = "<group>"; };
+		01DD18A61CAF6E2400C90A9D /* Lesson-1-s4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-s4.mp3"; path = "../sounds/Lesson-1-s4.mp3"; sourceTree = "<group>"; };
+		01DD18A71CAF6E2400C90A9D /* Lesson-1-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-5.mp3"; path = "../sounds/Lesson-1-5.mp3"; sourceTree = "<group>"; };
+		01DD18A81CAF6E2400C90A9D /* 122.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 122.mp3; path = ../sounds/122.mp3; sourceTree = "<group>"; };
+		01DD18A91CAF6E2400C90A9D /* Lesson-1-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-4.mp3"; path = "../sounds/Lesson-1-4.mp3"; sourceTree = "<group>"; };
+		01DD18AA1CAF6E2400C90A9D /* Lesson-1-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-3.mp3"; path = "../sounds/Lesson-1-3.mp3"; sourceTree = "<group>"; };
+		01DD18AB1CAF6E2400C90A9D /* Lesson-1-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lesson-1-2.mp3"; path = "../sounds/Lesson-1-2.mp3"; sourceTree = "<group>"; };
+		01E1CA701C90425700948C10 /* lessons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lessons.json; path = ../data/lessons.json; sourceTree = "<group>"; };
+		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
+		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* blashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = blashcards/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = blashcards/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = blashcards/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = blashcards/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = blashcards/main.m; sourceTree = "<group>"; };
+		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0115B4F61C88176E00FD0CAC /* libRNSound.a in Frameworks */,
+				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
+				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
+				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
+				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
+				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C302A81ABCB8CE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302B61ABCB90400DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302BC1ABCB91800DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302D41ABCB9D200DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302E01ABCB9EE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00E356EF1AD99517003FC87E /* blashcardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* blashcardsTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = blashcardsTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0115B4F11C88174700FD0CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0115B4F51C88174700FD0CAC /* libRNSound.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0134D9001C88CFAE00961149 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				01493C4F1C9AD66F004C7399 /* lesson9.json */,
+				01E1CA701C90425700948C10 /* lessons.json */,
+				01D32D8F1C8BBFC8008467C4 /* lesson8.json */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		0178E9FB1C882D6E00DA2E97 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				01DD18A01CAF6E2400C90A9D /* Lesson-1-1.mp3 */,
+				01DD18A11CAF6E2400C90A9D /* Lesson-1-10.mp3 */,
+				01DD18A21CAF6E2400C90A9D /* Lesson-1-9.mp3 */,
+				01DD18A31CAF6E2400C90A9D /* Lesson-1new8.mp3 */,
+				01DD18A41CAF6E2400C90A9D /* Lesson-1-7.mp3 */,
+				01DD18A51CAF6E2400C90A9D /* Lesson-1-s3.mp3 */,
+				01DD18A61CAF6E2400C90A9D /* Lesson-1-s4.mp3 */,
+				01DD18A71CAF6E2400C90A9D /* Lesson-1-5.mp3 */,
+				01DD18A81CAF6E2400C90A9D /* 122.mp3 */,
+				01DD18A91CAF6E2400C90A9D /* Lesson-1-4.mp3 */,
+				01DD18AA1CAF6E2400C90A9D /* Lesson-1-3.mp3 */,
+				01DD18AB1CAF6E2400C90A9D /* Lesson-1-2.mp3 */,
+				01493B751C9AD56D004C7399 /* 1-I-built-a-hospital.mp3 */,
+				01493B761C9AD56D004C7399 /* 2-I-will-go-on-Tuesday.mp3 */,
+				01493B771C9AD56D004C7399 /* 3-I-studied-in-the-evening.mp3 */,
+				01493B781C9AD56D004C7399 /* 5-I-will-study-in-the-summer.mp3 */,
+				01493B791C9AD56D004C7399 /* 9-I-lived-happily.mp3 */,
+				01493B7A1C9AD56D004C7399 /* 22.mp3 */,
+				01493B7B1C9AD56D004C7399 /* 25-I-dont-have-money.mp3 */,
+				01493B7C1C9AD56D004C7399 /* 26-I-dont-have-time.mp3 */,
+				01493B7D1C9AD56D004C7399 /* 27-My-friend-is-not-in-Korea-now.mp3 */,
+				01493B7E1C9AD56D004C7399 /* 28-There-was-nobody-there.mp3 */,
+				01493B7F1C9AD56D004C7399 /* 29-I-dislike-fruit.mp3 */,
+				01493B801C9AD56D004C7399 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 */,
+				01493B811C9AD56D004C7399 /* Lesson-8-7-I-ate-quietly.mp3 */,
+				01493B821C9AD56D004C7399 /* Lesson-8-8-I-crossed-the-street-safely.mp3 */,
+				01493B831C9AD56D004C7399 /* Lesson-8-10-I-ran-really-quickly.mp3 */,
+				01493B841C9AD56D004C7399 /* Lesson-8-11-I-ate-fast.mp3 */,
+				01493B851C9AD56D004C7399 /* Lesson-8-12-I-left-immediately.mp3 */,
+				01493B861C9AD56D004C7399 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 */,
+				01493B871C9AD56D004C7399 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 */,
+				01493B881C9AD56D004C7399 /* Lesson-8-16-I-didnt-study.mp3 */,
+				01493B891C9AD56D004C7399 /* Lesson-8-18-Im-not-happy.mp3 */,
+				01493B8A1C9AD56D004C7399 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 */,
+				01493B8B1C9AD56D004C7399 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 */,
+				01493B8C1C9AD56D004C7399 /* Lesson-8-21-I-dont-like-fish.mp3 */,
+				01493B8D1C9AD56D004C7399 /* Lesson-8-22-I-dont-like-fish.mp3 */,
+				01493B8E1C9AD56D004C7399 /* Lesson-8-s1.mp3 */,
+				01493B8F1C9AD56D004C7399 /* Lesson-8-s2.mp3 */,
+				01493B901C9AD56D004C7399 /* Lesson-9-3-I-am-a-good-student.mp3 */,
+				01493B911C9AD56D004C7399 /* Lesson-9-4-That-thing-is-an-apple.mp3 */,
+				01493B921C9AD56D004C7399 /* Lesson-9-5-That-thing-is-a-picture.mp3 */,
+				01493B931C9AD56D004C7399 /* Lesson-9-6-This-person-is-my-sister.mp3 */,
+				01493B941C9AD56D004C7399 /* Lesson-9-7-I-am-a-doctor.mp3 */,
+				01493B951C9AD56D004C7399 /* Lesson-9-8-That-person-is-my-brother.mp3 */,
+				01493B961C9AD56D004C7399 /* Lesson-9-9-I-was-a-bad-teacher.mp3 */,
+				01493B971C9AD56D004C7399 /* Lesson-9-10-I-was-a-bad-doctor.mp3 */,
+				01493B981C9AD56D004C7399 /* Lesson-9-11-That-was-a-big-secret.mp3 */,
+				01493B991C9AD56D004C7399 /* Lesson-9-12-I-was-a-doctor.mp3 */,
+				01493B9A1C9AD56D004C7399 /* Lesson-9-15-I-was-a-teacher.mp3 */,
+				01493B9B1C9AD56D004C7399 /* Lesson-9-16-I-was-a-doctor.mp3 */,
+				01493B9C1C9AD56D004C7399 /* Lesson-9-20-I-will-eat-rice.mp3 */,
+				01493B9D1C9AD56D004C7399 /* Lesson-9-21-I-will-eat-rice.mp3 */,
+				01493B9E1C9AD56D004C7399 /* Lesson-9-22-I-will-meet-my-friend-tomorrow.mp3 */,
+				01493B9F1C9AD56D004C7399 /* Lesson-9-23-I-will-meet-my-friend-tomorrow.mp3 */,
+				01493BA01C9AD56D004C7399 /* Lesson-9-24-I-will-go-to-school-tomorrow.mp3 */,
+				01493BA11C9AD56D004C7399 /* Lesson-9-25-I-will-study-English.mp3 */,
+				01493BA21C9AD56D004C7399 /* Lesson-9-26-I-will-be-a-teacher-soon.mp3 */,
+				01493BA31C9AD56D004C7399 /* Lesson-9-s5.mp3 */,
+				01493BA41C9AD56D004C7399 /* Lesson-9-s6.mp3 */,
+				01493BA51C9AD56D004C7399 /* Lesson-9-s7.mp3 */,
+				01493BA61C9AD56D004C7399 /* Lesson-9-s8.mp3 */,
+				01493BA71C9AD56D004C7399 /* Lesson-9-s9.mp3 */,
+				01493BA81C9AD56D004C7399 /* Lesson-9-s10.mp3 */,
+				01493BA91C9AD56D004C7399 /* Lesson8-1I-built-a-hospital.mp3 */,
+				01493BAA1C9AD56D004C7399 /* Lesson8-2I-went-to-thea-hospital.mp3 */,
+				01493BAB1C9AD56D004C7399 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 */,
+				01493BAC1C9AD56D004C7399 /* Lesson8-4I-meet-my-friend-often.mp3 */,
+				01493BAD1C9AD56D004C7399 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 */,
+				01493BAE1C9AD56D004C7399 /* Lesson8-6I-went-home-immediately.mp3 */,
+				01493BAF1C9AD56D004C7399 /* Lesson8-7I-did-my-homework-quickly.mp3 */,
+				01493BB01C9AD56D004C7399 /* Lesson8-8I-ate-a-lot-of-rice.mp3 */,
+				01493BB11C9AD56D004C7399 /* Lesson8-9I-ate-a-lot-of-rice.mp3 */,
+				01493BB21C9AD56D004C7399 /* Lesson8-10That-girl-isnt-pretty.mp3 */,
+				01493BB31C9AD56D004C7399 /* Lesson8-11That-girl-isnt-pretty.mp3 */,
+				01493BB41C9AD56D004C7399 /* Lesson8-12I-ate-rice-slowly.mp3 */,
+				01493BB51C9AD56D004C7399 /* Lesson8-13I-am-not-a-teacher.mp3 */,
+				01493BB61C9AD56D004C7399 /* Lesson8-14I-am-not-your-friend.mp3 */,
+				01493BB71C9AD56D004C7399 /* Lesson8-15I-am-not-a-University-Student.mp3 */,
+				01493BB81C9AD56D004C7399 /* Lesson8-16We-dont-have-a-car.mp3 */,
+				01493BB91C9AD56D004C7399 /* Lesson8-18I-dislike-fruit.mp3 */,
+				01493BBA1C9AD56D004C7399 /* Lesson9-1that-thing-is-a-book.mp3 */,
+				01493BBB1C9AD56D004C7399 /* Lesson9-2I-am-a-teacher.mp3 */,
+				01493BBC1C9AD56D004C7399 /* Lesson9-3This-is-a-passport.mp3 */,
+				01493BBD1C9AD56D004C7399 /* Lesson9-4I-am-a-doctor.mp3 */,
+				01493BBE1C9AD56D004C7399 /* Lesson9-5Baseball-is-a-good-sport.mp3 */,
+				01493BBF1C9AD56D004C7399 /* Lesson9-6I-am-not-a-student.mp3 */,
+				01493BC01C9AD56D004C7399 /* Lesson9-7That-thing-is-not-a-book.mp3 */,
+				01493BC11C9AD56D004C7399 /* Lesson9-8I-am-a-teacher.mp3 */,
+				01493BC21C9AD56D004C7399 /* Lesson9-9I-am-a-good-student.mp3 */,
+				01493BC31C9AD56D004C7399 /* Lesson9-10I-am-a-doctor.mp3 */,
+				01493BC41C9AD56D004C7399 /* Lesson9-11That-thing-is-an-apple.mp3 */,
+				01493BC51C9AD56D004C7399 /* Lesson9-12I-am-not-a-student.mp3 */,
+				01493BC61C9AD56D004C7399 /* Lesson9-13I-am-a-teacher.mp3 */,
+				01493BC71C9AD56D004C7399 /* Lesson9-14I-am-a-good-student.mp3 */,
+				01493BC81C9AD56D004C7399 /* Lesson9-15This-meet-is-pork.mp3 */,
+				01493BC91C9AD56D004C7399 /* Lesson9-16I-am-not-a-doctor.mp3 */,
+				01493BCA1C9AD56D004C7399 /* Lesson9-17I-am-not-a-student.mp3 */,
+				01493BCB1C9AD56D004C7399 /* Lesson9-18That-is-not-my-job.mp3 */,
+				01493BCC1C9AD56D004C7399 /* Lesson9-19That-is-not-my-passport.mp3 */,
+				01493BCD1C9AD56D004C7399 /* Lesson9-20That-building-is-not-a-theater.mp3 */,
+				01493BCE1C9AD56D004C7399 /* Lesson9-21I-was-a-student.mp3 */,
+				01493BCF1C9AD56D004C7399 /* Lesson9-22I-was-a-teacher.mp3 */,
+				01493BD01C9AD56D004C7399 /* Lesson9-23I-was-a-bad-baby.mp3 */,
+				01493BD11C9AD56D004C7399 /* Lesson9-24I-was-a-bad-baby.mp3 */,
+				01493BD21C9AD56D004C7399 /* Lesson9-25I-was-a-teacher.mp3 */,
+				01493BD31C9AD56D004C7399 /* Lesson9-26I-was-a-teacher.mp3 */,
+				01493BD41C9AD56D004C7399 /* Lesson9-27I-was-a-doctor.mp3 */,
+				01493BD51C9AD56D004C7399 /* Lesson9-28I-was-not-a-student.mp3 */,
+				01493BD61C9AD56D004C7399 /* Lesson9-29I-was-not-a-student.mp3 */,
+				01493BD71C9AD56D004C7399 /* Lesson9-30I-was-not-a-student.mp3 */,
+				01493BD81C9AD56D004C7399 /* Lesson9-31I-was-not-a-student.mp3 */,
+				01493BD91C9AD56D004C7399 /* Lesson9-32I-will-open-the-door.mp3 */,
+				01493BDA1C9AD56D004C7399 /* Lesson9-33I-will-be-a-teacher-soon.mp3 */,
+				01493BDB1C9AD56D004C7399 /* Lesson9-34I-will-become-a-doctor-in-the-future.mp3 */,
+				01493BDC1C9AD56D004C7399 /* Lesson9-35I-will-be-a-doctor-in-the-future.mp3 */,
+				01493BDD1C9AD56D004C7399 /* Lesson9-36Korea-will-become-a-good-country-soon.mp3 */,
+				01493BDE1C9AD56D004C7399 /* Lesson9-37Korea-will-be-a-good-country-soon.mp3 */,
+				01493BDF1C9AD56D004C7399 /* Lesson9-38This-place-will-become-a-park.mp3 */,
+				01493BE01C9AD56D004C7399 /* Lesson9-39This-place-will-be-a-park.mp3 */,
+				01493BE11C9AD56D004C7399 /* That-teacher-is-good.mp3 */,
+				0134D8A51C88CF9F00961149 /* 1-I-built-a-hospital.mp3 */,
+				0134D8A61C88CF9F00961149 /* 2-I-will-go-on-Tuesday.mp3 */,
+				0134D8A71C88CF9F00961149 /* 3-I-studied-in-the-evening.mp3 */,
+				0134D8A81C88CF9F00961149 /* 5-I-will-study-in-the-summer.mp3 */,
+				0134D8A91C88CF9F00961149 /* 9-I-lived-happily.mp3 */,
+				0134D8AA1C88CF9F00961149 /* 22.mp3 */,
+				0134D8AB1C88CF9F00961149 /* 25-I-dont-have-money.mp3 */,
+				0134D8AC1C88CF9F00961149 /* 26-I-dont-have-time.mp3 */,
+				0134D8AD1C88CF9F00961149 /* 27-My-friend-is-not-in-Korea-now.mp3 */,
+				0134D8AE1C88CF9F00961149 /* 28-There-was-nobody-there.mp3 */,
+				0134D8AF1C88CF9F00961149 /* 29-I-dislike-fruit.mp3 */,
+				0134D8B01C88CF9F00961149 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 */,
+				0134D8B11C88CF9F00961149 /* Lesson-8-7-I-ate-quietly.mp3 */,
+				0134D8B21C88CF9F00961149 /* Lesson-8-8-I-crossed-the-street-safely.mp3 */,
+				0134D8B31C88CF9F00961149 /* Lesson-8-10-I-ran-really-quickly.mp3 */,
+				0134D8B41C88CF9F00961149 /* Lesson-8-11-I-ate-fast.mp3 */,
+				0134D8B51C88CF9F00961149 /* Lesson-8-12-I-left-immediately.mp3 */,
+				0134D8B61C88CF9F00961149 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 */,
+				0134D8B71C88CF9F00961149 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 */,
+				0134D8B81C88CF9F00961149 /* Lesson-8-16-I-didnt-study.mp3 */,
+				0134D8B91C88CF9F00961149 /* Lesson-8-18-Im-not-happy.mp3 */,
+				0134D8BA1C88CF9F00961149 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 */,
+				0134D8BB1C88CF9F00961149 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 */,
+				0134D8BC1C88CF9F00961149 /* Lesson-8-21-I-dont-like-fish.mp3 */,
+				0134D8BD1C88CF9F00961149 /* Lesson-8-22-I-dont-like-fish.mp3 */,
+				0134D8BE1C88CF9F00961149 /* Lesson-8-s1.mp3 */,
+				0134D8BF1C88CF9F00961149 /* Lesson-8-s2.mp3 */,
+				0134D8C01C88CF9F00961149 /* Lesson8-1I-built-a-hospital.mp3 */,
+				0134D8C11C88CF9F00961149 /* Lesson8-2I-went-to-thea-hospital.mp3 */,
+				0134D8C21C88CF9F00961149 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 */,
+				0134D8C31C88CF9F00961149 /* Lesson8-4I-meet-my-friend-often.mp3 */,
+				0134D8C41C88CF9F00961149 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 */,
+				0134D8C51C88CF9F00961149 /* Lesson8-6I-went-home-immediately.mp3 */,
+				0134D8C61C88CF9F00961149 /* Lesson8-7I-did-my-homework-quickly.mp3 */,
+				0134D8C71C88CF9F00961149 /* Lesson8-8I-ate-a-lot-of-rice.mp3 */,
+				0134D8C81C88CF9F00961149 /* Lesson8-9I-ate-a-lot-of-rice.mp3 */,
+				0134D8C91C88CF9F00961149 /* Lesson8-10That-girl-isnt-pretty.mp3 */,
+				0134D8CA1C88CF9F00961149 /* Lesson8-11That-girl-isnt-pretty.mp3 */,
+				0134D8CB1C88CF9F00961149 /* Lesson8-12I-ate-rice-slowly.mp3 */,
+				0134D8CC1C88CF9F00961149 /* Lesson8-13I-am-not-a-teacher.mp3 */,
+				0134D8CD1C88CF9F00961149 /* Lesson8-14I-am-not-your-friend.mp3 */,
+				0134D8CE1C88CF9F00961149 /* Lesson8-15I-am-not-a-University-Student.mp3 */,
+				0134D8CF1C88CF9F00961149 /* Lesson8-16We-dont-have-a-car.mp3 */,
+				0134D8D01C88CF9F00961149 /* Lesson8-18I-dislike-fruit.mp3 */,
+				0134D8D11C88CF9F00961149 /* That-teacher-is-good.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		139105B71AF99BAD00B5F7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139FDEE71B06529A00C62182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* blashcards */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = blashcards;
+			sourceTree = "<group>";
+		};
+		146834001AC3E56700842450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146834041AC3E56700842450 /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C398B11ACF4ADC00677621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0115B4F01C88174700FD0CAC /* RNSound.xcodeproj */,
+				146833FF1AC3E56700842450 /* React.xcodeproj */,
+				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
+				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
+				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
+				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
+				00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */,
+				139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */,
+				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
+				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
+				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		832341B11AAA6A8300B99B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832341B51AAA6A8300B99B32 /* libRCTText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				0134D9001C88CFAE00961149 /* data */,
+				0178E9FB1C882D6E00DA2E97 /* sounds */,
+				13B07FAE1A68108700A75B9A /* blashcards */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* blashcardsTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* blashcards.app */,
+				00E356EE1AD99517003FC87E /* blashcardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* blashcardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "blashcardsTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = blashcardsTests;
+			productName = blashcardsTests;
+			productReference = 00E356EE1AD99517003FC87E /* blashcardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* blashcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "blashcards" */;
+			buildPhases = (
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blashcards;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* blashcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 68KH2CL976;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "blashcards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
+					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
+					ProjectRef = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302BC1ABCB91800DB3ED1 /* Products */;
+					ProjectRef = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = 78C398B11ACF4ADC00677621 /* Products */;
+					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
+					ProjectRef = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 139105B71AF99BAD00B5F7CC /* Products */;
+					ProjectRef = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+				},
+				{
+					ProductGroup = 832341B11AAA6A8300B99B32 /* Products */;
+					ProjectRef = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302E01ABCB9EE00DB3ED1 /* Products */;
+					ProjectRef = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = 139FDEE71B06529A00C62182 /* Products */;
+					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = 146834001AC3E56700842450 /* Products */;
+					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 0115B4F11C88174700FD0CAC /* Products */;
+					ProjectRef = 0115B4F01C88174700FD0CAC /* RNSound.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* blashcards */,
+				00E356ED1AD99517003FC87E /* blashcardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = 00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = 00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302C01ABCB91800DB3ED1 /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = 00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0115B4F51C88174700FD0CAC /* libRNSound.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSound.a;
+			remoteRef = 0115B4F41C88174700FD0CAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTSettings.a;
+			remoteRef = 139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139FDEF41B06529B00C62182 /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = 139FDEF31B06529B00C62182 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		146834041AC3E56700842450 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0134D8E11C88CF9F00961149 /* Lesson-8-11-I-ate-fast.mp3 in Resources */,
+				0134D8E01C88CF9F00961149 /* Lesson-8-10-I-ran-really-quickly.mp3 in Resources */,
+				01493C3C1C9AD56D004C7399 /* Lesson9-22I-was-a-teacher.mp3 in Resources */,
+				0134D8F31C88CF9F00961149 /* Lesson8-7I-did-my-homework-quickly.mp3 in Resources */,
+				01493C3F1C9AD56D004C7399 /* Lesson9-25I-was-a-teacher.mp3 in Resources */,
+				0134D8E51C88CF9F00961149 /* Lesson-8-16-I-didnt-study.mp3 in Resources */,
+				01493C441C9AD56D004C7399 /* Lesson9-30I-was-not-a-student.mp3 in Resources */,
+				01493C461C9AD56D004C7399 /* Lesson9-32I-will-open-the-door.mp3 in Resources */,
+				01DD18AE1CAF6E2400C90A9D /* Lesson-1-9.mp3 in Resources */,
+				01DD18AD1CAF6E2400C90A9D /* Lesson-1-10.mp3 in Resources */,
+				01493C201C9AD56D004C7399 /* Lesson8-11That-girl-isnt-pretty.mp3 in Resources */,
+				0134D8FA1C88CF9F00961149 /* Lesson8-14I-am-not-your-friend.mp3 in Resources */,
+				0134D8E61C88CF9F00961149 /* Lesson-8-18-Im-not-happy.mp3 in Resources */,
+				01493C3B1C9AD56D004C7399 /* Lesson9-21I-was-a-student.mp3 in Resources */,
+				0134D8F11C88CF9F00961149 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 in Resources */,
+				01493C1E1C9AD56D004C7399 /* Lesson8-9I-ate-a-lot-of-rice.mp3 in Resources */,
+				01493C321C9AD56D004C7399 /* Lesson9-12I-am-not-a-student.mp3 in Resources */,
+				01493C241C9AD56D004C7399 /* Lesson8-15I-am-not-a-University-Student.mp3 in Resources */,
+				01493C0F1C9AD56D004C7399 /* Lesson-9-26-I-will-be-a-teacher-soon.mp3 in Resources */,
+				0134D8D71C88CF9F00961149 /* 22.mp3 in Resources */,
+				01493C151C9AD56D004C7399 /* Lesson-9-s10.mp3 in Resources */,
+				01493C081C9AD56D004C7399 /* Lesson-9-16-I-was-a-doctor.mp3 in Resources */,
+				01493C331C9AD56D004C7399 /* Lesson9-13I-am-a-teacher.mp3 in Resources */,
+				0134D8F21C88CF9F00961149 /* Lesson8-6I-went-home-immediately.mp3 in Resources */,
+				01493C3E1C9AD56D004C7399 /* Lesson9-24I-was-a-bad-baby.mp3 in Resources */,
+				01493C031C9AD56D004C7399 /* Lesson-9-9-I-was-a-bad-teacher.mp3 in Resources */,
+				01493C281C9AD56D004C7399 /* Lesson9-2I-am-a-teacher.mp3 in Resources */,
+				0134D8D21C88CF9F00961149 /* 1-I-built-a-hospital.mp3 in Resources */,
+				01493C1F1C9AD56D004C7399 /* Lesson8-10That-girl-isnt-pretty.mp3 in Resources */,
+				01493C111C9AD56D004C7399 /* Lesson-9-s6.mp3 in Resources */,
+				01493BEC1C9AD56D004C7399 /* 29-I-dislike-fruit.mp3 in Resources */,
+				01493C0E1C9AD56D004C7399 /* Lesson-9-25-I-will-study-English.mp3 in Resources */,
+				01493C171C9AD56D004C7399 /* Lesson8-2I-went-to-thea-hospital.mp3 in Resources */,
+				01493C0C1C9AD56D004C7399 /* Lesson-9-23-I-will-meet-my-friend-tomorrow.mp3 in Resources */,
+				0134D8D91C88CF9F00961149 /* 26-I-dont-have-time.mp3 in Resources */,
+				0134D8F51C88CF9F00961149 /* Lesson8-9I-ate-a-lot-of-rice.mp3 in Resources */,
+				01DD18B61CAF6E2400C90A9D /* Lesson-1-3.mp3 in Resources */,
+				01493C421C9AD56D004C7399 /* Lesson9-28I-was-not-a-student.mp3 in Resources */,
+				01493C2F1C9AD56D004C7399 /* Lesson9-9I-am-a-good-student.mp3 in Resources */,
+				01493BE91C9AD56D004C7399 /* 26-I-dont-have-time.mp3 in Resources */,
+				01DD18B21CAF6E2400C90A9D /* Lesson-1-s4.mp3 in Resources */,
+				01493C4B1C9AD56D004C7399 /* Lesson9-37Korea-will-be-a-good-country-soon.mp3 in Resources */,
+				0134D8EB1C88CF9F00961149 /* Lesson-8-s1.mp3 in Resources */,
+				01493BF81C9AD56D004C7399 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 in Resources */,
+				0134D8F81C88CF9F00961149 /* Lesson8-12I-ate-rice-slowly.mp3 in Resources */,
+				01493C3D1C9AD56D004C7399 /* Lesson9-23I-was-a-bad-baby.mp3 in Resources */,
+				01493C411C9AD56D004C7399 /* Lesson9-27I-was-a-doctor.mp3 in Resources */,
+				01493BFD1C9AD56D004C7399 /* Lesson-9-3-I-am-a-good-student.mp3 in Resources */,
+				01493BE41C9AD56D004C7399 /* 3-I-studied-in-the-evening.mp3 in Resources */,
+				01493BFA1C9AD56D004C7399 /* Lesson-8-22-I-dont-like-fish.mp3 in Resources */,
+				01493BF01C9AD56D004C7399 /* Lesson-8-10-I-ran-really-quickly.mp3 in Resources */,
+				01493C131C9AD56D004C7399 /* Lesson-9-s8.mp3 in Resources */,
+				0134D8D41C88CF9F00961149 /* 3-I-studied-in-the-evening.mp3 in Resources */,
+				0134D8DA1C88CF9F00961149 /* 27-My-friend-is-not-in-Korea-now.mp3 in Resources */,
+				0134D8EC1C88CF9F00961149 /* Lesson-8-s2.mp3 in Resources */,
+				01E1CA711C90425700948C10 /* lessons.json in Resources */,
+				01493C011C9AD56D004C7399 /* Lesson-9-7-I-am-a-doctor.mp3 in Resources */,
+				0134D8DE1C88CF9F00961149 /* Lesson-8-7-I-ate-quietly.mp3 in Resources */,
+				0134D8F71C88CF9F00961149 /* Lesson8-11That-girl-isnt-pretty.mp3 in Resources */,
+				01493C491C9AD56D004C7399 /* Lesson9-35I-will-be-a-doctor-in-the-future.mp3 in Resources */,
+				0134D8E71C88CF9F00961149 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 in Resources */,
+				01493C4E1C9AD56D004C7399 /* That-teacher-is-good.mp3 in Resources */,
+				01493C161C9AD56D004C7399 /* Lesson8-1I-built-a-hospital.mp3 in Resources */,
+				01D32D911C8BBFC8008467C4 /* lesson8.json in Resources */,
+				01493C1A1C9AD56D004C7399 /* Lesson8-5I-ate-a-lot-of-food-rice.mp3 in Resources */,
+				01493C061C9AD56D004C7399 /* Lesson-9-12-I-was-a-doctor.mp3 in Resources */,
+				0134D8F01C88CF9F00961149 /* Lesson8-4I-meet-my-friend-often.mp3 in Resources */,
+				01493BF41C9AD56D004C7399 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 in Resources */,
+				01493BF61C9AD56D004C7399 /* Lesson-8-18-Im-not-happy.mp3 in Resources */,
+				01493C361C9AD56D004C7399 /* Lesson9-16I-am-not-a-doctor.mp3 in Resources */,
+				01493BF21C9AD56D004C7399 /* Lesson-8-12-I-left-immediately.mp3 in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0134D8E91C88CF9F00961149 /* Lesson-8-21-I-dont-like-fish.mp3 in Resources */,
+				01493C2E1C9AD56D004C7399 /* Lesson9-8I-am-a-teacher.mp3 in Resources */,
+				0134D8E41C88CF9F00961149 /* Lesson-8-14-I-eat-too-much-someitmes.mp3 in Resources */,
+				01493C071C9AD56D004C7399 /* Lesson-9-15-I-was-a-teacher.mp3 in Resources */,
+				0134D8D81C88CF9F00961149 /* 25-I-dont-have-money.mp3 in Resources */,
+				01493BFF1C9AD56D004C7399 /* Lesson-9-5-That-thing-is-a-picture.mp3 in Resources */,
+				01493C251C9AD56D004C7399 /* Lesson8-16We-dont-have-a-car.mp3 in Resources */,
+				01493C391C9AD56D004C7399 /* Lesson9-19That-is-not-my-passport.mp3 in Resources */,
+				01493C431C9AD56D004C7399 /* Lesson9-29I-was-not-a-student.mp3 in Resources */,
+				01493C3A1C9AD56D004C7399 /* Lesson9-20That-building-is-not-a-theater.mp3 in Resources */,
+				01493BF31C9AD56D004C7399 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 in Resources */,
+				01493BF51C9AD56D004C7399 /* Lesson-8-16-I-didnt-study.mp3 in Resources */,
+				01DD18B01CAF6E2400C90A9D /* Lesson-1-7.mp3 in Resources */,
+				01493C051C9AD56D004C7399 /* Lesson-9-11-That-was-a-big-secret.mp3 in Resources */,
+				01493BE51C9AD56D004C7399 /* 5-I-will-study-in-the-summer.mp3 in Resources */,
+				01493BEF1C9AD56D004C7399 /* Lesson-8-8-I-crossed-the-street-safely.mp3 in Resources */,
+				01493C401C9AD56D004C7399 /* Lesson9-26I-was-a-teacher.mp3 in Resources */,
+				01493C471C9AD56D004C7399 /* Lesson9-33I-will-be-a-teacher-soon.mp3 in Resources */,
+				01493C341C9AD56D004C7399 /* Lesson9-14I-am-a-good-student.mp3 in Resources */,
+				01493C001C9AD56D004C7399 /* Lesson-9-6-This-person-is-my-sister.mp3 in Resources */,
+				01493C351C9AD56D004C7399 /* Lesson9-15This-meet-is-pork.mp3 in Resources */,
+				01493C121C9AD56D004C7399 /* Lesson-9-s7.mp3 in Resources */,
+				01493C101C9AD56D004C7399 /* Lesson-9-s5.mp3 in Resources */,
+				0134D8DB1C88CF9F00961149 /* 28-There-was-nobody-there.mp3 in Resources */,
+				01DD18B11CAF6E2400C90A9D /* Lesson-1-s3.mp3 in Resources */,
+				01493BEB1C9AD56D004C7399 /* 28-There-was-nobody-there.mp3 in Resources */,
+				01493C271C9AD56D004C7399 /* Lesson9-1that-thing-is-a-book.mp3 in Resources */,
+				01493C4A1C9AD56D004C7399 /* Lesson9-36Korea-will-become-a-good-country-soon.mp3 in Resources */,
+				0134D8D31C88CF9F00961149 /* 2-I-will-go-on-Tuesday.mp3 in Resources */,
+				01493C191C9AD56D004C7399 /* Lesson8-4I-meet-my-friend-often.mp3 in Resources */,
+				01493C0B1C9AD56D004C7399 /* Lesson-9-22-I-will-meet-my-friend-tomorrow.mp3 in Resources */,
+				01493BF11C9AD56D004C7399 /* Lesson-8-11-I-ate-fast.mp3 in Resources */,
+				0134D8FD1C88CF9F00961149 /* Lesson8-18I-dislike-fruit.mp3 in Resources */,
+				01493C0A1C9AD56D004C7399 /* Lesson-9-21-I-will-eat-rice.mp3 in Resources */,
+				01493C381C9AD56D004C7399 /* Lesson9-18That-is-not-my-job.mp3 in Resources */,
+				0134D8F91C88CF9F00961149 /* Lesson8-13I-am-not-a-teacher.mp3 in Resources */,
+				01493C041C9AD56D004C7399 /* Lesson-9-10-I-was-a-bad-doctor.mp3 in Resources */,
+				0134D8E81C88CF9F00961149 /* Lesson-8-20-Im-not-going-to-school-tomorrow.mp3 in Resources */,
+				01493C2A1C9AD56D004C7399 /* Lesson9-4I-am-a-doctor.mp3 in Resources */,
+				0134D8D61C88CF9F00961149 /* 9-I-lived-happily.mp3 in Resources */,
+				0134D8DC1C88CF9F00961149 /* 29-I-dislike-fruit.mp3 in Resources */,
+				01493C4D1C9AD56D004C7399 /* Lesson9-39This-place-will-be-a-park.mp3 in Resources */,
+				0134D8FE1C88CF9F00961149 /* That-teacher-is-good.mp3 in Resources */,
+				01493C291C9AD56D004C7399 /* Lesson9-3This-is-a-passport.mp3 in Resources */,
+				0134D8ED1C88CF9F00961149 /* Lesson8-1I-built-a-hospital.mp3 in Resources */,
+				0134D8F41C88CF9F00961149 /* Lesson8-8I-ate-a-lot-of-rice.mp3 in Resources */,
+				01DD18B51CAF6E2400C90A9D /* Lesson-1-4.mp3 in Resources */,
+				01493C481C9AD56D004C7399 /* Lesson9-34I-will-become-a-doctor-in-the-future.mp3 in Resources */,
+				01493C2B1C9AD56D004C7399 /* Lesson9-5Baseball-is-a-good-sport.mp3 in Resources */,
+				01493BE71C9AD56D004C7399 /* 22.mp3 in Resources */,
+				01493C091C9AD56D004C7399 /* Lesson-9-20-I-will-eat-rice.mp3 in Resources */,
+				01493C4C1C9AD56D004C7399 /* Lesson9-38This-place-will-become-a-park.mp3 in Resources */,
+				01493C301C9AD56D004C7399 /* Lesson9-10I-am-a-doctor.mp3 in Resources */,
+				01493BEE1C9AD56D004C7399 /* Lesson-8-7-I-ate-quietly.mp3 in Resources */,
+				01493C2C1C9AD56D004C7399 /* Lesson9-6I-am-not-a-student.mp3 in Resources */,
+				0134D8D51C88CF9F00961149 /* 5-I-will-study-in-the-summer.mp3 in Resources */,
+				01493C221C9AD56D004C7399 /* Lesson8-13I-am-not-a-teacher.mp3 in Resources */,
+				01493C211C9AD56D004C7399 /* Lesson8-12I-ate-rice-slowly.mp3 in Resources */,
+				0134D8FC1C88CF9F00961149 /* Lesson8-16We-dont-have-a-car.mp3 in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				01493C371C9AD56D004C7399 /* Lesson9-17I-am-not-a-student.mp3 in Resources */,
+				0134D8E31C88CF9F00961149 /* Lesson-8-13-I-often-meet-my-friend-on-Thursday.mp3 in Resources */,
+				01493C311C9AD56D004C7399 /* Lesson9-11That-thing-is-an-apple.mp3 in Resources */,
+				01493C1B1C9AD56D004C7399 /* Lesson8-6I-went-home-immediately.mp3 in Resources */,
+				01493C141C9AD56D004C7399 /* Lesson-9-s9.mp3 in Resources */,
+				01493C181C9AD56D004C7399 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 in Resources */,
+				01DD18AF1CAF6E2400C90A9D /* Lesson-1new8.mp3 in Resources */,
+				01493BFB1C9AD56D004C7399 /* Lesson-8-s1.mp3 in Resources */,
+				01493BE21C9AD56D004C7399 /* 1-I-built-a-hospital.mp3 in Resources */,
+				01493BF71C9AD56D004C7399 /* Lesson-8-19-Im-not-going-to-school-tomorrow.mp3 in Resources */,
+				01493C2D1C9AD56D004C7399 /* Lesson9-7That-thing-is-not-a-book.mp3 in Resources */,
+				01DD18B31CAF6E2400C90A9D /* Lesson-1-5.mp3 in Resources */,
+				01493C021C9AD56D004C7399 /* Lesson-9-8-That-person-is-my-brother.mp3 in Resources */,
+				01493C451C9AD56D004C7399 /* Lesson9-31I-was-not-a-student.mp3 in Resources */,
+				01493BF91C9AD56D004C7399 /* Lesson-8-21-I-dont-like-fish.mp3 in Resources */,
+				01DD18B71CAF6E2400C90A9D /* Lesson-1-2.mp3 in Resources */,
+				01493BFE1C9AD56D004C7399 /* Lesson-9-4-That-thing-is-an-apple.mp3 in Resources */,
+				01493BEA1C9AD56D004C7399 /* 27-My-friend-is-not-in-Korea-now.mp3 in Resources */,
+				01493BE81C9AD56D004C7399 /* 25-I-dont-have-money.mp3 in Resources */,
+				0134D8EF1C88CF9F00961149 /* Lesson8-3I-built-a-hospital-beside-the-park-in-the-fall.mp3 in Resources */,
+				01493C0D1C9AD56D004C7399 /* Lesson-9-24-I-will-go-to-school-tomorrow.mp3 in Resources */,
+				0134D8E21C88CF9F00961149 /* Lesson-8-12-I-left-immediately.mp3 in Resources */,
+				01493C1D1C9AD56D004C7399 /* Lesson8-8I-ate-a-lot-of-rice.mp3 in Resources */,
+				0134D8EA1C88CF9F00961149 /* Lesson-8-22-I-dont-like-fish.mp3 in Resources */,
+				0134D8DD1C88CF9F00961149 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 in Resources */,
+				0134D8EE1C88CF9F00961149 /* Lesson8-2I-went-to-thea-hospital.mp3 in Resources */,
+				0134D8F61C88CF9F00961149 /* Lesson8-10That-girl-isnt-pretty.mp3 in Resources */,
+				01493BE61C9AD56D004C7399 /* 9-I-lived-happily.mp3 in Resources */,
+				01493C261C9AD56D004C7399 /* Lesson8-18I-dislike-fruit.mp3 in Resources */,
+				01493C231C9AD56D004C7399 /* Lesson8-14I-am-not-your-friend.mp3 in Resources */,
+				01493C501C9AD66F004C7399 /* lesson9.json in Resources */,
+				0134D8DF1C88CF9F00961149 /* Lesson-8-8-I-crossed-the-street-safely.mp3 in Resources */,
+				01493BED1C9AD56D004C7399 /* Lesson-8-6-I-will-study-Korean-tomorrow.mp3 in Resources */,
+				01DD18B41CAF6E2400C90A9D /* 122.mp3 in Resources */,
+				01493C1C1C9AD56D004C7399 /* Lesson8-7I-did-my-homework-quickly.mp3 in Resources */,
+				01DD18AC1CAF6E2400C90A9D /* Lesson-1-1.mp3 in Resources */,
+				01493BFC1C9AD56D004C7399 /* Lesson-8-s2.mp3 in Resources */,
+				01493BE31C9AD56D004C7399 /* 2-I-will-go-on-Tuesday.mp3 in Resources */,
+				0134D8FB1C88CF9F00961149 /* Lesson8-15I-am-not-a-University-Student.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* blashcardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* blashcards */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = blashcards;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = blashcardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blashcards.app/blashcards";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = blashcardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blashcards.app/blashcards";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = blashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.barnaby.bishop.blashcards;
+				PRODUCT_NAME = blashcards;
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = blashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.barnaby.bishop.blashcards;
+				PRODUCT_NAME = blashcards;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "blashcardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "blashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "blashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
